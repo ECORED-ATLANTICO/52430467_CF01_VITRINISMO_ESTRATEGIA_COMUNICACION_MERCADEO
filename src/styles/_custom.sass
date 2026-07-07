@@ -1,47 +1,880 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+    top: 17%
+    right: 40%
+    width: 60px
+    
 
-@keyframes float1
-  0%
-    transform: translateY(20px)
-  100%
-    transform: translateY(0px)
-  
+  &-2
+    position: absolute
+    top: 68%
+    right: 87%
+    width: 60px
+    
+
+  &-3
+    position: absolute
+    top: 36%
+    right: 5%
+    width: 80px
+    
+
+@media (min-width: 1025px)
+  .banner-principal-decorativo
+    &-1
+      top: 15%
+      right: 40%
+      width: 80px
+    &-2
+      top: 68%
+      right: 87%
+      width: 90px
+    &-3
+      top: 36%
+      right: 0%
+      width: 100px
+
+@keyframes orbitPerfect
+  from
+    transform: rotate(0deg) translateX(12px) rotate(0deg)
+  to
+    transform: rotate(360deg) translateX(12px) rotate(-360deg)
+
 ///////////CUSTOM BANNER PRINCIPAL E INTERNO/////////////
+
 .banner-principal .tarjeta
   background-position: left 50% !important
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $color-sistema-texto !important
-
-.banner-interno__titulo__icono i
-  color: $color-primario
-
-figcaption, table caption
-  font-weight: normal
+.titulo-principal__numero
+  min-width: 45px
+  height: 45px
+  margin-right: 15px
+  position: relative
+  background-color: $color-acento-contenido !important
+  
+.banner-interno__fondo 
+  background-image: url('../assets/curso/portada/banner_interno.png') !important
 
 .banner-principal__row .banner-principal__img
-  width: 500px !important
+  width: 520px !important
+  padding-top: 4.7rem !important
+  padding-bottom: 0 !important
   @media screen and (max-width: $bp-max-xl)
+    padding-top: 4.8rem !important
+    padding-bottom: 0 !important
     width: 400px !important
 
-.banner-interno__fondo
-  background-image: url("../assets/curso/banner_interno.png") !important
-  background-color: $color-primario !important
 .banner-principal .tarjeta
-  @media screen and (max-width: $bp-max-md)
-    background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
-  @media screen and (max-width: $bp-max-xs)
-    background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
+  background-position: left 50% !important
+  background-image: url('../assets/curso/portada/fondo-banner-principal-sm.png') !important
 
-.text-end 
-    text-align: left !important
+  @media (min-width: $bp-min-sm)
+    background-image: url('../assets/curso/portada/fondo-banner-principal-xs.png') !important
+
+  @media (min-width: $bp-min-lg)
+    background-image: url('../assets/curso/portada/fondo-banner-principal.png') !important
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
+  color: $color-sistema-texto
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: $white !important
+
+.banner-interno__titulo__icono i
+  color: $white
+
+.banner-interno__titulo__icono 
+  background: $color-primario
+
+.banner-interno__titulo h2
+  color: $color-sistema-texto
+ 
+.barra-avance__boton--regresar span
+  color: $color-sistema-texto !important
+
+figcaption
+  font-weight: normal
+  
+// Columna del ícono flotante (sobresale del bloque)
+.bloque-enlace__icono-col
+  position: relative
+  z-index: 2
+  display: flex
+  align-items: center
+  justify-content: center
+  
+
+  figure
+    width: 100%
+    max-width: 90px
+
+    img
+      width: 100%
+      height: auto
+      display: block
+      margin-left: -30px
+      // Móvil pequeño (≤576px)
+      @media (max-width: $bp-max-xs)
+        margin-left: -10px
+        
+      
+
+// Bloque con fondo decorativo
+.bloque-enlace
+  position: relative
+  display: flex
+  align-items: center
+  gap: 1.5rem
+  //background-image: url('../assets/curso/tema1/img_9.png')
+  background-repeat: no-repeat
+  background-size: 100% 100%
+  background-position: center
+  border-radius: 20px
+  padding: 2rem 11rem 2rem 5rem
+  min-height: 160px
+  margin-left: -5rem
+  overflow: hidden
+
+  &__contenido
+    flex: 1
+    min-width: 0
+    overflow: hidden
+
+    h5
+      font-size: 1rem
+      font-weight: 800
+      color: $color-sistema-texto
+      line-height: 1.3
+      margin: 0 0 0.5rem 0
+      overflow-wrap: break-word
+      word-break: normal
+
+    p
+      font-size: 0.95rem
+      color: $color-sistema-texto
+      line-height: 1.5
+      margin: 0
+      overflow-wrap: break-word
+      word-break: normal
+
+  &__accion
+    flex-shrink: 0
+
+  // Desktop grande (1200-1399px)
+  @media (max-width: $bp-max-lg)
+    padding: 1.75rem 9rem 1.75rem 4rem
+    min-height: 150px
+    margin-left: -4rem
+    gap: 1.25rem
+
+    &__contenido
+      p
+        font-size: 0.9rem
+
+  // Tablet (992-1199px)
+  @media (max-width: $bp-max-md)
+    padding: 1.5rem 7rem 1.5rem 3rem
+    min-height: 140px
+    margin-left: -4rem
+    gap: 1rem
+
+    &__contenido
+      h5
+        font-size: 0.95rem
+
+      p
+        font-size: 0.85rem
+        line-height: 1.4
+
+  // Móvil grande (768-991px) - vertical
+  @media (max-width: $bp-max-sm)
+    flex-direction: column
+    align-items: flex-start
+    padding: 2rem 4rem 2rem 4rem
+    min-height: auto
+    margin-left: -6rem
+    background-size: cover
+    background-position: center
+    gap: 1rem
+
+    &__contenido
+      width: 100%
+
+      h5
+        font-size: 1rem
+
+      p
+        font-size: 0.9rem
+        line-height: 1.5
+
+    &__accion
+      align-self: flex-start
+      margin-top: 0.5rem
+
+  // Móvil pequeño (≤576px)
+  @media (max-width: $bp-max-xs)
+    padding: 2rem 3rem 2rem 3rem
+    margin-left: -3rem
+    background-size: cover
+
+    &__contenido
+      h5
+        font-size: 0.95rem
+
+      p
+        font-size: 0.85rem
+
+// Botón estilo enlace con ícono de descarga
+.boton-enlace
+  display: inline-flex
+  align-items: center
+  gap: 0.5rem
+  background-color: $color-acento-botones
+  color: $color-sistema-texto !important
+  padding: 0.6rem 1.2rem
+  border-radius: 8px
+  font-weight: 700
+  font-size: 0.95rem
+  text-decoration: none !important
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease
+  white-space: nowrap
+
+  &:hover, &:focus
+    background-color: darken($color-acento-botones, 8%)
+    transform: translateY(-1px)
+    color: $color-sistema-texto !important
+    box-shadow: 0 4px 12px rgba($color-acento-botones, 0.35)
+
+  &:focus-visible
+    outline: 2px solid $color-sistema-texto
+    outline-offset: 2px
+
+  &:active
+    transform: translateY(0)
+    box-shadow: none
+
+  &__texto
+    line-height: 1
+    color: $color-sistema-texto
+
+  &__icono
+    font-size: 1rem
+    color: $color-sistema-texto
+
+  @media (max-width: $bp-max-md)
+    padding: 0.5rem 1rem
+    font-size: 0.9rem
+
+    &__icono
+      font-size: 0.9rem
+      padding: 0.35rem
+
+  @media (max-width: $bp-max-sm)
+    padding: 0.6rem 1.5rem
+    font-size: 1rem
+
+    &__icono
+      font-size: 1rem
+      padding: 0.4rem
+
+// TabsA 
+.tabs-a.color-secundario.mb-3.uno
+  .row
+    align-items: stretch !important
+    justify-content: center !important
+    .col-lg-3.col-xl-3
+      flex: 0 0 50% !important
+      max-width: 50% !important
+      display: flex
+      flex-direction: column
+
+      @media (min-width: 1200px)
+        flex: 0 0 33% !important
+        max-width: 33% !important
+
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+    .col-lg-9.col-xl-9
+      flex: 0 0 50% !important
+      max-width: 50% !important
+      display: flex !important
+
+      @media (min-width: 1200px)
+        flex: 0 0 67% !important
+        max-width: 67% !important
+
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+
+.tabs-a.color-secundario.mb-3.dos
+  .row
+    align-items: stretch !important
+    justify-content: center !important
+    .col-lg-4.col-xl-3
+      flex: 0 0 50% !important
+      max-width: 50% !important
+      display: flex
+      flex-direction: column
+
+      @media (min-width: 1200px)
+        flex: 0 0 45% !important
+        max-width: 45% !important
+
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+    .col-lg-8.col-xl-9
+      flex: 0 0 50% !important
+      max-width: 50% !important
+      display: flex !important
+
+      @media (min-width: 1200px)
+        flex: 0 0 55% !important
+        max-width: 55% !important
+
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+
+.tabs-a.tarjeta-tabs-a.color-secundario.mb-3.uno .col-sm-6.col-lg-12.mb-3
+  .tabs-a__tab
+    padding: 18px 22px !important
+    font-size: 0.95rem !important
+    min-height: 5rem  !important
+    flex-grow: 1
+.tabs-a.tarjeta-tabs-a.color-secundario.mb-3.dos .col-sm-6.col-lg-12.mb-3
+  .tabs-a__tab
+    padding: 18px 22px !important
+    font-size: 0.95rem !important
+    min-height: 5rem  !important
+    flex-grow: 1
+
+.tabs-a .tarjeta-tabs-a__tarjeta
+  flex-grow: 1 !important
+  width: 100%
+  display: flex !important
+  align-items: center !important
+  flex-direction: column !important
+  justify-content: center !important
+
+.tabs-a
+  .tarjeta
+    display: flex  !important
+    flex-direction: column  !important
+    justify-content: center  !important
+
+// Tabla a 
+.tabla-a thead
+  border-top: 10px $color-primario-20 solid
+  color: $color-sistema-a
+  background-color: $color-primario-20
+
+.bg-table-01
+  background-color: $color-sistema-h
+  color: $color-sistema-texto
+.bg-table-02
+  background-color: $white
+  color: $color-sistema-texto
+
+// Bloque de texto con ícono circular flotante arriba-centro
+.bloque-texto-icono
+  position: relative
+  background-color: $color-secundario-10
+  border-radius: 20px
+  padding: 4rem 3rem 2rem 3rem
+  margin-top: 3rem
+
+  &__icono
+    position: absolute
+    top: -3rem
+    left: 50%
+    transform: translateX(-50%)
+    width: 90px
+    height: 90px
+    background-color: $white
+    border-radius: 50%
+    display: flex
+    align-items: center
+    justify-content: center
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08)
+    z-index: 2
+
+    figure
+      width: 60%
+      height: 60%
+      margin: 0
+      display: flex
+      align-items: center
+      justify-content: center
+
+      img
+        width: 100%
+        height: 100%
+        object-fit: contain
+        display: block
+
+  &__contenido
+    p
+      font-size: 1rem
+      line-height: 1.6
+      color: $color-sistema-texto
+      margin: 0
+      text-align: center
+
+  // Desktop grande (1200-1399px)
+  @media (max-width: $bp-max-lg)
+    padding: 3.5rem 2.5rem 1.75rem 2.5rem
+
+    &__contenido p
+      font-size: 0.95rem
+
+  // Tablet (992-1199px)
+  @media (max-width: $bp-max-md)
+    padding: 3.5rem 2rem 1.75rem 2rem
+
+    &__icono
+      width: 80px
+      height: 80px
+      top: -2.5rem
+
+    &__contenido p
+      font-size: 0.95rem
+
+  // Móvil grande (768-991px)
+  @media (max-width: $bp-max-sm)
+    padding: 3rem 1.5rem 1.5rem 1.5rem
+    margin-top: 2.5rem
+
+    &__icono
+      width: 70px
+      height: 70px
+      top: -2.25rem
+
+    &__contenido p
+      font-size: 0.9rem
+      line-height: 1.5
+
+  // Móvil pequeño (≤576px)
+  @media (max-width: $bp-max-xs)
+    padding: 2.5rem 1.25rem 1.25rem 1.25rem
+    margin-top: 2rem
+
+    &__icono
+      width: 60px
+      height: 60px
+      top: -2rem
+
+    &__contenido p
+      font-size: 0.85rem
+
+// Tarjeta con imagen redondeada arriba, título y texto debajo
+.tarjeta-img-titulo
+  background-color: $white
+  border-radius: 20px
+  overflow: hidden
+  height: 100%
+  display: flex
+  flex-direction: column
+  transition: transform 0.3s ease, box-shadow 0.3s ease
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06)
+
+  &:hover
+    transform: translateY(-4px)
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08)
+
+  &__imagen
+    width: 100%
+    margin: 0
+    padding: 0
+
+    figure
+      margin: 0
+      padding: 0
+      width: 100%
+      display: block
+
+      img
+        width: 100%
+        height: 220px
+        object-fit: cover
+        object-position: center
+        display: block
+        margin: 0
+        padding: 0
+
+  &__contenido
+    flex: 1
+    padding: 1.5rem
+    text-align: center
+    display: flex
+    flex-direction: column
+
+  &__titulo
+    font-size: 1.05rem
+    font-weight: 800
+    color: $color-sistema-texto
+    line-height: 1.3
+    margin: 0 0 1rem 0
+
+  p
+    font-size: 0.9rem
+    line-height: 1.6
+    color: $color-sistema-texto
+    margin: 0
+    text-align: left
+
+  // Tablet (992-1199px)
+  @media (max-width: $bp-max-md)
+    &__imagen
+      figure img
+        height: 200px
+
+    &__contenido
+      padding: 1.25rem
+
+    &__titulo
+      font-size: 1rem
+
+    p
+      font-size: 0.88rem
+
+  // Móvil (≤768px)
+  @media (max-width: $bp-max-sm)
+    &__imagen
+      figure img
+        height: 200px
+
+    &__contenido
+      padding: 1.25rem
+
+    p
+      font-size: 0.9rem
+
+  // Móvil pequeño (≤576px)
+  @media (max-width: $bp-max-xs)
+    &__imagen
+      figure img
+        height: 180px
+
+    &__contenido
+      padding: 1rem
+
+    &__titulo
+      font-size: 0.95rem
+
+    p
+      font-size: 0.85rem
+
+//subtitulo-destacado
+.subtitulo-destacado
+  display: inline-flex
+  align-items: flex-end
+  width: fit-content
+  max-width: 100%
+
+  &__icono
+    flex-shrink: 0
+    display: flex
+    align-items: flex-end
+    justify-content: center
+    width: 4rem
+    height: 4rem
+    position: relative
+    z-index: 1
+    margin-bottom: 0
+
+  &__img
+    width: 100%
+    height: 100%
+    object-fit: contain
+    object-position: bottom
+    display: block
+
+  &__fondo
+    display: flex
+    align-items: center
+    background-color: $color-sistema-e
+    border-radius: 4px 100px 0px 4px
+    padding: 0.5rem 4rem 0.5rem 2.3rem
+    margin-left: -2.1rem
+    min-height: 2.6rem
+
+  &__texto
+    font-size: 1.2rem
+    font-weight: 900
+    color: $color-sistema-texto
+    margin: 0
+    line-height: 1.2
+    word-break: break-word
+
+  // MODIFICADOR: versión compacta
+  &--mini
+    align-items: center
+
+    .subtitulo-destacado__icono
+      width: 1.9rem
+      height: 1.9rem
+      align-items: center
+      margin-top: 0
+      margin-bottom: 0
+
+    .subtitulo-destacado__img
+      width: 100%
+      height: 100%
+      object-fit: contain
+      object-position: center
+
+    .subtitulo-destacado__fondo
+      background-color: $color-sistema-e
+      border-radius: 999px
+      padding: 0.5rem 2rem 0.5rem 2rem
+      margin-left: -1.4rem
+      min-height: 2.6rem
+
+    .subtitulo-destacado__texto
+      font-size: 1.2rem
+      font-weight: 800
+      line-height: 1.2
+
+@media (max-width: 992px)
+  .subtitulo-destacado
+    &__icono
+      width: 3.5rem
+      height: 3.5rem
+
+    &__fondo
+      padding: 0.5rem 4rem 0.5rem 2.3rem
+      min-height: 2.6rem
+      border-radius: 4px 80px 0px 4px
+
+    &__texto
+      font-size: 1.2rem
+
+@media (max-width: 576px)
+  .subtitulo-destacado
+    width: 100%
+
+    &__icono
+      width: 4.5rem
+      height: 5rem
+
+    &__fondo
+      flex: 1
+      padding: 0.5rem 2.5rem 0.5rem 2.3rem
+      min-height: 3.5rem
+      border-radius: 4px 60px 0px 4px
+
+    &__texto
+      font-size: 1.15rem
+
+    &--mini
+      .subtitulo-destacado__icono
+        width: 1.5rem
+        height: 1.5rem
+
+      .subtitulo-destacado__fondo
+        padding: 0.5rem 1.5rem 0.5rem 2.2rem
+        margin-left: -1.2rem
+        min-height: 2.6rem
+
+      .subtitulo-destacado__texto
+        font-size: 0.95rem
+
+// Fondos 
+.bg_img
+  &_1
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    padding: 2rem 0rem
+    z-index: 1
+    &::before
+      content: ''
+      position: absolute
+      top: -35px
+      bottom: 0
+      left: -55px
+      right: -55px
+      background-image: url('../assets/curso/tema1/img_2.svg')
+      background-repeat: no-repeat
+      background-position: center
+      background-size: 100% 100%
+      z-index: -1
+      pointer-events: none
+      @media (max-width: 1024px)
+          width: 130%
+      @media (max-width: 991px)
+          width: 350%
+      @media (max-width: 767px)
+          width: 700%
+    > *
+      position: relative
+      z-index: 2
+  &_2
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    padding: 2rem 0rem
+    z-index: 1
+    &::before
+      content: ''
+      position: absolute
+      top: -35px
+      bottom: 0
+      left: -55px
+      right: -55px
+      background-image: url('../assets/curso/tema1/img_14.svg')
+      background-repeat: no-repeat
+      background-position: center
+      background-size: 100% 100%
+      z-index: -1
+      pointer-events: none
+      @media (max-width: 1024px)
+          width: 130%
+      @media (max-width: 991px)
+          width: 350%
+      @media (max-width: 767px)
+          width: 700%
+    > *
+      position: relative
+      z-index: 2
+  &_3
+      position: relative
+      h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+        position: relative
+      padding: 2rem 0rem
+      z-index: 1
+      &::before
+        content: ''
+        position: absolute
+        top: -30px
+        bottom: -30px
+        left: -52px
+        right: -52px
+        background-image: url('../assets/curso/tema2/img_3.svg')
+        background-repeat: no-repeat
+        background-position: center
+        background-size: 100% 100%
+        z-index: -1
+        pointer-events: none
+        @media (max-width: 1024px)
+          width: 100%
+        @media (max-width: 991px)
+          top: -10px
+          bottom: -10px
+          left: 0px
+          right: 0px
+          width: 100% 
+        @media (max-width: 767px)
+          top: -60px
+          bottom: 0px
+          left: -50px
+          right: 0px
+          width: 180%
+          height: 150% !important
+      > *
+        position: relative
+        z-index: 2
+      .slyder-a__tipo-b .slyder-a__btn--sigt
+        background-color: $color-acento-botones
+      .slyder-a__tipo-b .slyder-a__btn--atrs
+        background-color: $color-acento-botones
+      .slyder-a__bullets__item--active
+        background-color: $color-primario !important
+        border-color: $color-primario !important
+        opacity: 1
+      .slyder-a__bullets__item
+        background-color: lighten($color-primario, 15%)
+        border: 1px solid lighten($color-primario, 15%)
+  
+
+// acordion
+.acordion__activo
+  background-color: $color-primario-10
+  background-repeat: no-repeat
+  background-size: cover 
+  background-position: center
+  overflow: hidden 
+.acordion__accion__btn--b
+  background-color: $white
+  color: $color-sistema-texto
+
+// factores-slider custom-slider
+.factores-slider, .custom-slider
+  &__icon 
+    max-height: 93px
+  .slyder-f
+    align-items: center
+    justify-content: center
+    gap: 0
+  .slyder-f__btn
+    background-color: $color-acento-botones
+    height: 42px
+    width: 42px
+    min-width: 42px
+    border-radius: 50%
+    padding: 0 !important
+    transition: transform 0.3s
+    z-index: 100
+    
+    &:hover
+      transform: scale(1.1)
+    .fa-chevron-left, .fa-chevron-right
+      font-size: 1.5rem
+    &.ps-3
+      margin-left: 7px
+      @media (max-width: 1024px)
+        margin-left: 7px
+    &.pe-3
+      margin-right: 7px
+      @media (max-width: 1024px)
+        margin-right: 7px
+.tarjeta-numerada--vertical
+  .custom-slider
+    width: 100%
+    max-width: 100%
+    overflow: hidden !important
+    contain: layout
+    
+    .slyder-f__main
+      width: 0 !important
+      flex: 1 1 0 !important
+      min-width: 0 !important
+      overflow: hidden !important
+      
+    .slick-list
+      overflow: hidden !important
+      max-width: 100% !important
+      
+    .slick-track
+      max-width: none
+    
+    .slick-slide
+      height: auto
+      
+  .slyder-f
+    position: relative
+    
+    &__btn
+      position: absolute !important
+      top: 50%
+      z-index: 10
+      
+      &.pe-3  // ← botón anterior (izquierda)
+        left: 0
+        margin-right: 0 !important
+        
+      &.ps-3  // ← botón siguiente (derecha)
+        right: 0px !important
+        margin-left: 0 !important
+        
+    &__main
+      width: 100% !important
+      padding: 0 60px
+///pasos-b__header__btn
+.pasos-b__header__btn--left, .pasos-b__header__btn--right
+  background-color: $color-acento-botones
+  border: 2px solid $color-acento-botones
