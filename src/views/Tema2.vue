@@ -21,12 +21,11 @@
       .h2(data-aos="fade-right") 2.1 Concepto
     .mb-0 
 
-    .tarjeta.color-secundario-10.p-4.rounded-4.mb-0.h-100.d-flex.align-items-center(data-aos="zoom-in-right")
-      .row.justify-content-center.align-items-center.mb-0
-        .col-3.col-lg-1.mb-3.mb-lg-0
-          figure
-            img(src='@/assets/curso/tema2/img_2.svg', class="img-fluid")
-        .col-12.col-lg-11.mb-0
+    .bg_img_4.mb-0
+      .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
+        .bloque-texto-t__img.mb-0
+          img(src='@/assets/curso/tema2/img_3.png')
+        .bloque-texto-t__texto.col-10.mb-0.p-4.rounded-4
           p.mb-0 La exhibición se refiere a la forma en que los productos se presentan dentro del establecimiento comercial para facilitar su visualización y estimular la compra por parte del consumidor. Esta estrategia implica la organización del mobiliario, la ubicación de los productos, el uso de iluminación y la creación de espacios atractivos que destaquen la oferta comercial. Una exhibición adecuada permite que los clientes identifiquen fácilmente los productos disponibles, comparen alternativas y tomen decisiones de compra de manera más rápida y cómoda.
 
     Separador
@@ -39,7 +38,7 @@
     
     br 
     
-    .bg_img_3.mb-0
+    .bg_img_5.mb-0
       .row.justify-content-center.align-items-center.mb-0
         .col-12.col-lg-7.mb-3.mb-lg-0.order-2.order-lg-1
           SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-3.p-md-4.p-lg-2.p-xl-5.mb-0(data-aos="zoom-in-right")
@@ -57,12 +56,13 @@
                 p.mb-0 Área diseñada para destacar ofertas, lanzamientos o campañas comerciales mediante una exhibición llamativa que capte la atención del cliente e incentive la compra de los productos promocionados.
         .col-10.col-lg-5.mb-3.mb-md-3.mb-lg-0.order-1.order-lg-2(data-aos="flip-left")
           figure
-            img(src='@/assets/curso/tema2/img_4.png', class="img-fluid")
+            img(src='@/assets/curso/tema2/img_5.png', class="img-fluid")
 
     br 
     br 
 
-    p.mb-0(data-aos="zoom-in-right") Por ejemplo, en supermercados como Éxito u Olímpica, las zonas cercanas a las cajas suelen utilizarse para ubicar productos de compra impulsiva como dulces, bebidas o artículos pequeños.
+    .tarjeta.color-terciario-5.p-4.rounded-4.mb-0(data-aos="zoom-in-right")
+      p.mb-0 Por ejemplo, en supermercados como Éxito u Olímpica, las zonas cercanas a las cajas suelen utilizarse para ubicar productos de compra impulsiva como dulces, bebidas o artículos pequeños.
 
     Separador
 
@@ -76,45 +76,47 @@
           p.mb-0 Los tipos de exhibición constituyen una herramienta fundamental del vitrinismo y el visual merchandising, ya que permiten organizar y presentar los productos de manera estratégica para captar la atención del consumidor, facilitar su recorrido por el espacio comercial y fortalecer la comunicación de la propuesta de valor. La selección del tipo de exhibición depende de los objetivos comerciales, las características del producto, el público objetivo y el entorno de venta, contribuyendo a mejorar la experiencia de compra e impulsar las ventas.
         .col-3.col-lg-1.mb-3.mb-lg-0.order-1.order-lg-2
           figure
-            img(src='@/assets/curso/tema2/img_5.svg', class="img-fluid")
+            img(src='@/assets/curso/tema2/img_6.svg', class="img-fluid")
 
     p.mb-4(data-aos="zoom-in-right") La exhibición puede adoptar diferentes formas dependiendo del tipo de producto y de la estrategia comercial utilizada por la empresa. Entre los tipos de exhibición en el punto de venta tenemos:
 
-    TabsA.color-acento-botones.mb-3.uno.mb-5
-      .tarjeta.color-secundario-10.p-4.px-5(titulo="Exhibición horizontal")
-        .row.justify-content-center.align-items-center.mb-0
-          .col-12.col-lg-6.mb-0.order-2.order-lg-1
-            h5.mb-4 Exhibición horizontal
-            p.mb-0 Los productos se organizan a lo largo de un mismo nivel de estantería, ubicándose uno al lado del otro. Este tipo de exhibición permite comparar diferentes marcas o presentaciones de un mismo producto de manera fácil para el cliente.
-          .col-12.col-lg-6.mb-3.mb-lg-0.order-1.order-lg-2
-            figure
-              img(src='@/assets/curso/tema2/img_6.png', class="img-fluid")
-      .tarjeta.color-secundario-10.p-4.px-5(titulo="Exhibición vertical")
-        .row.justify-content-center.align-items-center.mb-0
-          .col-12.col-lg-6.mb-0.order-2.order-lg-1
-            h5.mb-4 Exhibición vertical
-            p.mb-0 Los productos se distribuyen en varios niveles de la estantería, desde la parte superior hasta la inferior. Esta organización facilita la visualización de los productos y permite que cada marca tenga presencia en diferentes alturas del estante.
-          .col-12.col-lg-6.mb-3.mb-lg-0.order-1.order-lg-2
-            figure
-              img(src='@/assets/curso/tema2/img_7.png', class="img-fluid")
-      .tarjeta.color-secundario-10.p-4.px-5(titulo="Exhibición masiva")
-        .row.justify-content-center.align-items-center.mb-0
-          .col-12.col-lg-6.mb-0.order-2.order-lg-1
-            h5.mb-4 Exhibición masiva
-            p.mb-0 consiste en colocar una gran cantidad de productos agrupados en un mismo espacio para generar impacto visual y transmitir sensación de abundancia. Es común en promociones o lanzamientos de productos.
-          .col-12.col-lg-6.mb-3.mb-lg-0.order-1.order-lg-2
-            figure
-              img(src='@/assets/curso/tema2/img_8.png', class="img-fluid")
-      .tarjeta.color-secundario-10.p-4.px-5(titulo="Exhibición temática")
-        .row.justify-content-center.align-items-center.mb-0
-          .col-12.col-lg-6.mb-0.order-2.order-lg-1
-            h5.mb-4 Exhibición temática
-            p.mb-0 Los productos se organizan según temporadas, eventos o campañas comerciales. Por ejemplo, exhibiciones especiales en navidad, regreso a clases o promociones de temporada dentro del establecimiento comercial.
-          .col-12.col-lg-6.mb-3.mb-lg-0.order-1.order-lg-2
-            figure
-              img(src='@/assets/curso/tema2/img_9.png', class="img-fluid")
+    .bg_img_6.mb-0
+      TabsA.color-acento-botones.mb-3.uno.mb-5
+        .tarjeta.color-secundario-10.p-4.px-5(titulo="Exhibición horizontal")
+          .row.justify-content-center.align-items-center.mb-0
+            .col-12.col-lg-6.mb-0.order-2.order-lg-1
+              h5.mb-4 Exhibición horizontal
+              p.mb-0 Los productos se organizan a lo largo de un mismo nivel de estantería, ubicándose uno al lado del otro. Este tipo de exhibición permite comparar diferentes marcas o presentaciones de un mismo producto de manera fácil para el cliente.
+            .col-12.col-lg-6.mb-3.mb-lg-0.order-1.order-lg-2
+              figure
+                img(src='@/assets/curso/tema2/img_8.png', class="img-fluid")
+        .tarjeta.color-secundario-10.p-4.px-5(titulo="Exhibición vertical")
+          .row.justify-content-center.align-items-center.mb-0
+            .col-12.col-lg-6.mb-0.order-2.order-lg-1
+              h5.mb-4 Exhibición vertical
+              p.mb-0 Los productos se distribuyen en varios niveles de la estantería, desde la parte superior hasta la inferior. Esta organización facilita la visualización de los productos y permite que cada marca tenga presencia en diferentes alturas del estante.
+            .col-12.col-lg-6.mb-3.mb-lg-0.order-1.order-lg-2
+              figure
+                img(src='@/assets/curso/tema2/img_9.png', class="img-fluid")
+        .tarjeta.color-secundario-10.p-4.px-5(titulo="Exhibición masiva")
+          .row.justify-content-center.align-items-center.mb-0
+            .col-12.col-lg-6.mb-0.order-2.order-lg-1
+              h5.mb-4 Exhibición masiva
+              p.mb-0 consiste en colocar una gran cantidad de productos agrupados en un mismo espacio para generar impacto visual y transmitir sensación de abundancia. Es común en promociones o lanzamientos de productos.
+            .col-12.col-lg-6.mb-3.mb-lg-0.order-1.order-lg-2
+              figure
+                img(src='@/assets/curso/tema2/img_10.png', class="img-fluid")
+        .tarjeta.color-secundario-10.p-4.px-5(titulo="Exhibición temática")
+          .row.justify-content-center.align-items-center.mb-0
+            .col-12.col-lg-6.mb-0.order-2.order-lg-1
+              h5.mb-4 Exhibición temática
+              p.mb-0 Los productos se organizan según temporadas, eventos o campañas comerciales. Por ejemplo, exhibiciones especiales en navidad, regreso a clases o promociones de temporada dentro del establecimiento comercial.
+            .col-12.col-lg-6.mb-3.mb-lg-0.order-1.order-lg-2
+              figure
+                img(src='@/assets/curso/tema2/img_11.png', class="img-fluid")
 
-    p.mb-0(data-aos="zoom-in-right") Por ejemplo, tiendas como IKEA utilizan exhibiciones temáticas que recrean espacios del hogar para mostrar cómo se pueden utilizar los productos en la vida cotidiana.
+      .tarjeta.color-terciario-5.p-4.rounded-4.mb-0(data-aos="zoom-in-right")
+        p.mb-0 Por ejemplo, tiendas como IKEA utilizan exhibiciones temáticas que recrean espacios del hogar para mostrar cómo se pueden utilizar los productos en la vida cotidiana.
 
     Separador
 
@@ -122,34 +124,37 @@
       .h2(data-aos="fade-right") 2.4 Niveles
     .mb-0 
 
-    p.mb-5(data-aos="zoom-in-right") Los niveles de exhibición corresponden a la altura a la que se ubican los productos dentro de las estanterías. Cada nivel tiene un impacto diferente en la visibilidad y en la probabilidad de compra. En supermercados y tiendas minoristas, los productos más rentables o con mayor margen de ganancia suelen ubicarse a la altura de los ojos, ya que es el nivel con mayor visibilidad para el consumidor.
-
-    .row.justify-content-center.align-items-center.mb-0
-      .col-12.col-lg-10.mb-0(data-aos="flip-left") 
-        .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
-          h5 Tabla 1.
-          |  Niveles de exhibición
-        .tabla-a.mb-0(data-aos="flip-left")
-          table
-            caption 
-              p.mb-0 Nota. Adaptada de Kotler & Armstrong, (2017).
-            thead
-              tr
-                th.col-auto.col-lg-4 Nivel
-                th.col-auto.col-lg-auto Características
-            tbody
-              tr
-                td.text-start Nivel superior
-                td.text-start Ubicación elevada con menor visibilidad para el cliente. 
-              tr.bg-table-01
-                td.text-start Nivel de los ojos
-                td.text-start Área con mayor visibilidad y probabilidad de compra.
-              tr
-                td.text-start Nivel de las manos
-                td.text-start Fácil acceso para el cliente.
-              tr.bg-table-01
-                td.text-start Nivel inferior
-                td.text-start Zona con menor atención visual.
+    .bg_img_7.mb-0
+      .row.justify-content-center.align-items-center.mb-0
+        .col-12.col-lg-8.mb-0(data-aos="flip-left") 
+          p.mb-5(data-aos="zoom-in-right") Los niveles de exhibición corresponden a la altura a la que se ubican los productos dentro de las estanterías. Cada nivel tiene un impacto diferente en la visibilidad y en la probabilidad de compra. En supermercados y tiendas minoristas, los productos más rentables o con mayor margen de ganancia suelen ubicarse a la altura de los ojos, ya que es el nivel con mayor visibilidad para el consumidor.
+          .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
+            h5 Tabla 1.
+            |  Niveles de exhibición
+          .tabla-a.mb-0(data-aos="flip-left")
+            table
+              caption 
+                p.mb-0 Nota. Adaptada de Kotler & Armstrong, (2017).
+              thead
+                tr
+                  th.col-auto.col-lg-4 Nivel
+                  th.col-auto.col-lg-auto Características
+              tbody
+                tr
+                  td.text-start Nivel superior
+                  td.text-start Ubicación elevada con menor visibilidad para el cliente. 
+                tr.bg-table-01
+                  td.text-start Nivel de los ojos
+                  td.text-start Área con mayor visibilidad y probabilidad de compra.
+                tr
+                  td.text-start Nivel de las manos
+                  td.text-start Fácil acceso para el cliente.
+                tr.bg-table-01
+                  td.text-start Nivel inferior
+                  td.text-start Zona con menor atención visual.
+        .col-8.col-lg-4.mb-0(data-aos="flip-left") 
+          figure
+            img(src='@/assets/curso/tema2/img_13.png', class="img-fluid")
 
     Separador
 
@@ -161,7 +166,7 @@
       .row.justify-content-center.align-items-center.mb-0
         .col-3.col-lg-1.mb-3.mb-lg-0
           figure
-            img(src='@/assets/curso/tema2/img_10.svg', class="img-fluid")
+            img(src='@/assets/curso/tema2/img_13.svg', class="img-fluid")
         .col-12.col-lg-11.mb-0
           p.mb-0 Las técnicas de exhibición son estrategias utilizadas para organizar y presentar los productos de manera atractiva, funcional y persuasiva dentro del punto de venta. Su aplicación busca captar la atención del consumidor, facilitar la visualización de los artículos, destacar sus atributos y orientar la decisión de compra. Estas técnicas combinan criterios de diseño, distribución, iluminación, color y comunicación visual para optimizar el aprovechamiento del espacio comercial y fortalecer la experiencia de compra.
 
