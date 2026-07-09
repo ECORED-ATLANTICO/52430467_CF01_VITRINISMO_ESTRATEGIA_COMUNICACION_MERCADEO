@@ -20,6 +20,7 @@
             .col-4.col-lg-2.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema1/img_2.svg', class="img-fluid") 
+
     Separador
 
     #t_1_1.titulo-segundo.color-acento-contenido
@@ -30,7 +31,7 @@
       .bloque-texto-t__img.mb-0
         img(src='@/assets/curso/tema1/img_3.png')
       .bloque-texto-t__texto.col-10.mb-0.p-4.rounded-4
-        p.mb-4 El escaparatismo surgió como una forma básica de mostrar productos en vitrinas comerciales. Con el crecimiento del comercio y de los grandes almacenes, las exhibiciones comenzaron a incorporar elementos decorativos y estrategias visuales para atraer clientes. En la actualidad, el escaparatismo integra tecnologías digitales, experiencias sensoriales y visual merchandising para generar mayor impacto comercial.
+        p.mb-0 El escaparatismo surgió como una forma básica de mostrar productos en vitrinas comerciales. Con el crecimiento del comercio y de los grandes almacenes, las exhibiciones comenzaron a incorporar elementos decorativos y estrategias visuales para atraer clientes. En la actualidad, el escaparatismo integra tecnologías digitales, experiencias sensoriales y visual merchandising para generar mayor impacto comercial.
 
     .bg_img_1.mb-0
 

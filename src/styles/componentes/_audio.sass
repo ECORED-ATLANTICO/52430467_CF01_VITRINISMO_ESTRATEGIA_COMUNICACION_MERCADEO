@@ -14,7 +14,7 @@
     &:hover
       transform: scale(1.1)
   .spinner-border
-    border-right-color: transparent !important
+    border-right-color: transparent 
 
 .audio, .tarjeta-audio, .tarjeta-dialogo
   &.color-primario
@@ -147,9 +147,11 @@
       color: $color-acento-contenido
 
   &.color-acento-botones
+    background-color: $white !important
     border-color: $color-acento-botones
     .tarjeta-audio__texto
-      color: $color-acento-botones
+      color: $color-sistema-texto !important
+      margin-bottom: 3rem !important
     .tarjeta-audio__input
       input[type=range]
         background: rgba($color-acento-botones, 0.2)
