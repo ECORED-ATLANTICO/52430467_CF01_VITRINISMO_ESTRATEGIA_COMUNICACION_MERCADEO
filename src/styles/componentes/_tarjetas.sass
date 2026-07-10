@@ -660,6 +660,19 @@
       color: textColor(lighten($color-sistema-h, 50%))
       border: solid 4px $color-sistema-h
       box-shadow: 8px 8px 20px rgba(0,0,0,0.15)
+  
+  &--color-acento-contenido-10
+    background-color: $color-acento-contenido-10
+    &:active, &:focus, &:hover
+      background-color: $color-primario-10
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+    .acordion__accion__btn--a
+      background-color: $color-acento-botones
+    .acordion__contenido 
+      padding-left: 3.5rem
 
   &--01::before
     position: absolute

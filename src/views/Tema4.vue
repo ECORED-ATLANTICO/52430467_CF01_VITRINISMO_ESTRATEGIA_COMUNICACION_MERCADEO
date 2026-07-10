@@ -7,7 +7,7 @@
         span 4
       h1 Medios visuales y comunicación
 
-    .tarjeta--bg-img.color-primario-10.rounded-0.p-0.mb-0.overflow-hidden(data-aos="zoom-in-right")
+    .tarjeta--bg-img.color-secundario-10.rounded-0.p-0.mb-0.overflow-hidden(data-aos="zoom-in-right")
       .row.justify-content-center.align-items-center.mb-0.h-100
         .col-12.col-lg-5.mb-lg-0.mb-3.p-0.align-self-stretch.d-none.d-lg-block
           figure.p-0.m-0.h-100
@@ -34,9 +34,7 @@
 
     p.mb-4(data-aos="zoom-in-right") Entre los principales fundamentos visuales se encuentran:
 
-
-    .bg_img_6.mb-0
-
+    .bg_img_14.mb-0
       .row.justify-content-center.align-items-center.mb-4
         .col-12.col-lg-8.order-2.order-lg-1
           .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
@@ -85,9 +83,9 @@
         figure
           img(src='@/assets/curso/tema4/img_11.png', class="img-fluid") 
       .col-12.col-lg-8
-        p.mb-4(data-aos="zoom-in-right") Por ejemplo, tiendas como Zara y Nike utilizan iluminación estratégica, colores neutros y composición visual organizada para fortalecer la experiencia del consumidor y destacar sus productos.
-        .tarjeta.color-primario-5.p-4.px-5.rounded-4.mb-0(data-aos="zoom-in-right")
-          p.mb-0 Escaparate de una tienda de Nike con fachada de vidrio que permite observar la exhibición de productos deportivos en el interior del establecimiento. Este tipo de vitrina abierta forma parte del escaparatismo, estrategia que utiliza iluminación, diseño y presentación visual para atraer la atención de los clientes y resaltar la marca.
+        .tarjeta.color-terciario-5.p-4.px-5.rounded-4.mb-3(data-aos="zoom-in-right")
+          p.mb-0 Por ejemplo, tiendas como Zara y Nike utilizan iluminación estratégica, colores neutros y composición visual organizada para fortalecer la experiencia del consumidor y destacar sus productos.
+        p.mb-0(data-aos="zoom-in-right") Escaparate de una tienda de Nike con fachada de vidrio que permite observar la exhibición de productos deportivos en el interior del establecimiento. Este tipo de vitrina abierta forma parte del escaparatismo, estrategia que utiliza iluminación, diseño y presentación visual para atraer la atención de los clientes y resaltar la marca.
 
     Separador
 
@@ -95,7 +93,7 @@
       .h2(data-aos="fade-right") 4.2 Teoría visual 
     .mb-0 
 
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-7
         .tarjeta.color-secundario-20.p-4.px-5.rounded-4.mb-4(data-aos="zoom-in-right")
           p.mb-0 La teoría visual estudia la manera en que los consumidores perciben e interpretan los elementos gráficos y visuales presentes en una exhibición comercial. Su aplicación permite organizar los espacios de manera estratégica para captar la atención del cliente y comunicar mensajes comerciales de forma efectiva. Dentro del vitrinismo, la teoría visual facilita la distribución de productos, la jerarquización de elementos y la creación de recorridos visuales dentro del escaparate o punto de venta.
@@ -135,23 +133,26 @@
                 td.text-start Armonía
                 td.text-start Integra colores, formas, materiales, iluminación y distribución del espacio para crear una exhibición coherente, agradable y alineada con la identidad visual de la marca, fortaleciendo la experiencia de compra.
                 td.text-start Las tiendas Zara mantienen una combinación uniforme de colores, mobiliario e iluminación que refuerza la identidad de la marca y aporta una experiencia visual consistente.
-      .col-12.col-lg-10.mb-0(data-aos="flip-left") 
-        p.mb-0 Los fundamentos y la teoría visuales permiten organizar estratégicamente los espacios comerciales y las vitrinas para fortalecer la comunicación visual, mejorar la experiencia del consumidor y favorecer las estrategias de exhibición dentro del punto de venta.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-lg-8
-        .tarjeta.color-acento-contenido.p-4.rounded-4.mb-3(data-aos="zoom-in-right")
-          .row.justify-content-center.align-items-center.mb-0
-            .col-12.col-lg-5.mb-lg-0.mb-3
-              figure
-                img(src="@/assets/curso/tema4/img_13.png", class="img-fluid w-100")
-            .col-12.col-lg-7.mb-lg-0
-              h2.text-white.mb-5 Pódcast
-              TarjetaAudio.color-acento-botones.rounded-4.mb-0.p-3.px-4(
-                texto="Nombre pódcast"
-                :audio="require('@/assets/curso/tema4/img_13.png')"
-                @audio-hover="mostrarIndicadorTarjetaAudio = True")
-                .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+    .bg_img_15.mb-0
+      .row.justify-content-center.align-items-center.mb-5
+        .col-12.col-lg-10.mb-0(data-aos="flip-left") 
+          p.mb-0 Los fundamentos y la teoría visuales permiten organizar estratégicamente los espacios comerciales y las vitrinas para fortalecer la comunicación visual, mejorar la experiencia del consumidor y favorecer las estrategias de exhibición dentro del punto de venta.
+
+      .row.justify-content-center.align-items-center.mb-5
+        .col-12.col-lg-8
+          .tarjeta.color-acento-contenido.p-4.rounded-4.mb-3(data-aos="zoom-in-right")
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12.col-lg-5.mb-lg-0.mb-3
+                figure
+                  img(src="@/assets/curso/tema4/img_13.png", class="img-fluid w-100")
+              .col-12.col-lg-7.mb-lg-0
+                h2.text-white.mb-5 Pódcast
+                TarjetaAudio.color-acento-botones.rounded-4.mb-0.p-3.px-4(
+                  texto="Nombre pódcast"
+                  :audio="require('@/assets/curso/tema4/img_13.png')"
+                  @audio-hover="mostrarIndicadorTarjetaAudio = True")
+                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 </template>
 
 <script>
