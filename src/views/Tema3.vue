@@ -5,14 +5,14 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Merchandising
+      h1 <em>Merchandising</em>
 
     .bg_img_9.mb-0
       .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
         .bloque-texto-t__img.mb-0
           img(src='@/assets/curso/tema3/img_2.png')
         .bloque-texto-t__texto.col-10.mb-0.p-4.rounded-4
-          p.mb-0 El merchandising es una estrategia fundamental dentro del marketing y la gestión del punto de venta, ya que permite mejorar la presentación de los productos y estimular la decisión de compra de los consumidores. A través de diferentes técnicas visuales, organizativas y promocionales, las empresas buscan hacer más atractiva la exhibición de los productos, optimizar el espacio comercial y facilitar la experiencia de compra de los clientes dentro del establecimiento.
+          p.mb-0 El <em>merchandising</em> es una estrategia fundamental dentro del <em>marketing</em> y la gestión del punto de venta, ya que permite mejorar la presentación de los productos y estimular la decisión de compra de los consumidores. A través de diferentes técnicas visuales, organizativas y promocionales, las empresas buscan hacer más atractiva la exhibición de los productos, optimizar el espacio comercial y facilitar la experiencia de compra de los clientes dentro del establecimiento.
 
       .row.justify-content-center.align-items-center.mb-0
         .col-12.col-lg-10.mb-0(data-aos="flip-left") 
@@ -30,7 +30,7 @@
           figure.p-0.m-0.h-100
             img(src='@/assets/curso/tema3/img_3.png', class="img-fluid w-100 h-100 object-fit-cover").p-0
         .col-12.col-lg-7.p-5.px-4
-          p.mb-0 El merchandising se define como el conjunto de técnicas y estrategias aplicadas en el punto de venta con el objetivo de presentar los productos de manera atractiva para estimular la compra. Estas técnicas incluyen la organización de los productos, el uso de señalización promocional, la iluminación, la distribución del mobiliario y la ambientación del espacio comercial. El merchandising busca influir en la decisión de compra del consumidor en el momento en que se encuentra dentro del establecimiento, facilitando la identificación de productos y mejorando la experiencia de compra.
+          p.mb-0 El <em>merchandising</em> se define como el conjunto de técnicas y estrategias aplicadas en el punto de venta con el objetivo de presentar los productos de manera atractiva para estimular la compra. Estas técnicas incluyen la organización de los productos, el uso de señalización promocional, la iluminación, la distribución del mobiliario y la ambientación del espacio comercial. El <em>merchandising</em> busca influir en la decisión de compra del consumidor en el momento en que se encuentra dentro del establecimiento, facilitando la identificación de productos y mejorando la experiencia de compra.
 
     Separador
 
@@ -38,45 +38,45 @@
       .h2(data-aos="fade-right") 3.2 Tipos
     .mb-0 
 
-    p.mb-4(data-aos="zoom-in-right") Los tipos de merchandising reúnen estrategias orientadas a optimizar la presentación de los productos y mejorar la experiencia de compra. Su aplicación responde a diferentes objetivos comerciales, como atraer clientes, impulsar las ventas, fortalecer la imagen de marca y favorecer la rotación de los productos en el punto de venta. Entre los tipos de merchandising, tenemos:
+    p.mb-4(data-aos="zoom-in-right") Los tipos de <em>merchandising</em> reúnen estrategias orientadas a optimizar la presentación de los productos y mejorar la experiencia de compra. Su aplicación responde a diferentes objetivos comerciales, como atraer clientes, impulsar las ventas, fortalecer la imagen de marca y favorecer la rotación de los productos en el punto de venta. Entre los tipos de merchandising, tenemos:
 
     .bg_img_10.mb-0
       TabsA.color-acento-botones.mb-3.uno.mb-5
-        .tarjeta.color-secundario-10.p-4.px-5(titulo="Merchandising visual")
+        .tarjeta.color-secundario-10.p-4.px-5(titulo="<em>Merchandising</em> visual")
           .row.justify-content-center.align-items-center.mb-0
             .col-12.col-lg-7.mb-0.order-2.order-lg-1
-              h5.mb-4 Merchandising visual
+              h5.mb-4 <em>Merchandising</em> visual
               p.mb-0 Se enfoca en la presentación estética del producto mediante iluminación, colores y diseño del espacio.
             .col-12.col-lg-5.mb-3.mb-lg-0.order-1.order-lg-2
               figure
                 img(src='@/assets/curso/tema3/img_5.png', class="img-fluid")
-        .tarjeta.color-secundario-10.p-4.px-5(titulo="Merchandising de gestión")
+        .tarjeta.color-secundario-10.p-4.px-5(titulo="<em>Merchandising</em> de gestión")
           .row.justify-content-center.align-items-center.mb-0
             .col-12.col-lg-7.mb-0.order-2.order-lg-1
-              h5.mb-4 Merchandising de gestión
+              h5.mb-4 <em>Merchandising</em> de gestión
               p.mb-0 Analiza la rotación de productos, la ubicación en estanterías y la optimización del espacio de venta.
             .col-12.col-lg-5.mb-3.mb-lg-0.order-1.order-lg-2
               figure
                 img(src='@/assets/curso/tema3/img_6.png', class="img-fluid")
-        .tarjeta.color-secundario-10.p-4.px-5(titulo="Merchandising promocional")
+        .tarjeta.color-secundario-10.p-4.px-5(titulo="<em>Merchandising</em> promocional")
           .row.justify-content-center.align-items-center.mb-0
             .col-12.col-lg-7.mb-0.order-2.order-lg-1
-              h5.mb-4 Merchandising promocional
+              h5.mb-4 <em>Merchandising</em> promocional
               p.mb-0 Utiliza ofertas, descuentos y material publicitario para estimular la compra.
             .col-12.col-lg-5.mb-3.mb-lg-0.order-1.order-lg-2
               figure
                 img(src='@/assets/curso/tema3/img_7.png', class="img-fluid")
-        .tarjeta.color-secundario-10.p-4.px-5(titulo="Merchandising digital")
+        .tarjeta.color-secundario-10.p-4.px-5(titulo="<em>Merchandising</em> digital")
           .row.justify-content-center.align-items-center.mb-0
             .col-12.col-lg-7.mb-0.order-2.order-lg-1
-              h5.mb-4 Merchandising digital
+              h5.mb-4 <em>Merchandising</em> digital
               p.mb-0 Utiliza pantallas, tecnologías interactivas y herramientas digitales en el punto de venta.
             .col-12.col-lg-5.mb-3.mb-lg-0.order-1.order-lg-2
               figure
                 img(src='@/assets/curso/tema3/img_8.png', class="img-fluid")
 
       .tarjeta.color-terciario-5.p-4.rounded-4.mb-0(data-aos="zoom-in-right")
-        p.mb-0 Por ejemplo, tiendas como Zara utilizan estrategias de merchandising visual mediante vitrinas atractivas, iluminación estratégica y organización de prendas para captar la atención del cliente.
+        p.mb-0 Por ejemplo, tiendas como Zara utilizan estrategias de <em>merchandising</em> visual mediante vitrinas atractivas, iluminación estratégica y organización de prendas para captar la atención del cliente.
 
     Separador
 
@@ -126,7 +126,7 @@
     .bg_img_12.mb-0
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-7
-          p.mb-4(data-aos="zoom-in-right") El merchandising se aplica en diferentes tipos de establecimientos comerciales como supermercados, tiendas de ropa, almacenes de tecnología y grandes superficies. Su implementación permite mejorar la organización del punto de venta, aumentar la visibilidad de los productos y fortalecer la comunicación entre la marca y el consumidor.
+          p.mb-4(data-aos="zoom-in-right") El <em>merchandising</em> se aplica en diferentes tipos de establecimientos comerciales como supermercados, tiendas de ropa, almacenes de tecnología y grandes superficies. Su implementación permite mejorar la organización del punto de venta, aumentar la visibilidad de los productos y fortalecer la comunicación entre la marca y el consumidor.
           .tarjeta.color-primario-5.p-4.px-5.rounded-4.mb-0(data-aos="zoom-in-right")
             p.mb-0 Un ejemplo de aplicación se observa en tiendas como IKEA, donde se utilizan ambientes simulados del hogar para exhibir muebles y accesorios, permitiendo que los clientes visualicen cómo se verían los productos en su propio espacio.
         .col-12.col-lg-5.mb-3.mb-lg-0(data-aos="zoom-in-right")
@@ -143,7 +143,7 @@
               .col-12.col-md-8.col-lg-10.p-4
                 .row.justify-content-between.align-items-center.g-3
                   .col-12.col-sm
-                    p.mb-0.fw-bold Ir al siguiente video donde se explica qué es el merchandising y cómo se aplica en el punto de venta para mejorar la presentación de los productos, atraer la atención del cliente y estimular la decisión de compra dentro del establecimiento comercial.
+                    p.mb-0.fw-normal Ir al siguiente video donde se explica qué es el <em>merchandising</em> y cómo se aplica en el punto de venta para mejorar la presentación de los productos, atraer la atención del cliente y estimular la decisión de compra dentro del establecimiento comercial.
                   .col-12.col-sm-auto
                     a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=j_2UbHFnL74 " target="_blank" rel="noopener noreferrer")
                       span Ver video
@@ -160,10 +160,10 @@
         figure
           img(src='@/assets/curso/tema3/img_13.png', class="img-fluid") 
       .col-12.col-lg-7
-        p.mb-4(data-aos="zoom-in-right") El visual merchandising se define como el conjunto de técnicas visuales utilizadas para presentar los productos de manera atractiva dentro del punto de venta. Estas técnicas incluyen el uso del color, la iluminación, el diseño del espacio, la decoración y la disposición de los productos. Su finalidad es captar la atención del cliente, facilitar la identificación de los productos y reforzar la imagen de la marca dentro del establecimiento comercial.
+        p.mb-4(data-aos="zoom-in-right") El visual <em>merchandising</em> se define como el conjunto de técnicas visuales utilizadas para presentar los productos de manera atractiva dentro del punto de venta. Estas técnicas incluyen el uso del color, la iluminación, el diseño del espacio, la decoración y la disposición de los productos. Su finalidad es captar la atención del cliente, facilitar la identificación de los productos y reforzar la imagen de la marca dentro del establecimiento comercial.
         .tarjeta.color-primario-5.p-4.px-5.rounded-4.mb-3(data-aos="zoom-in-right")
           p.mb-0 Por ejemplo, tiendas de ropa como Zara utilizan vitrinas llamativas, iluminación estratégica y organización estética de las prendas para atraer clientes y destacar sus colecciones.
-        p.mb-0(data-aos="zoom-in-right") El visual merchandising puede aplicarse de diferentes formas dentro del establecimiento comercial.
+        p.mb-0(data-aos="zoom-in-right") El visual <em>merchandising</em> puede aplicarse de diferentes formas dentro del establecimiento comercial.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-10.mb-0(data-aos="flip-left") 
@@ -176,20 +176,20 @@
               p.mb-0 Nota. Adaptado de Kotler y Keller, (2016).
             thead
               tr
-                th.col-auto.col-lg-auto Tipo de visual merchandising
+                th.col-auto.col-lg-auto Tipo de visual <em>merchandising</em>
                 th.col-auto.col-lg-auto Descripción
                 th.col-auto.col-lg-auto Ejemplo empresarial
             tbody
               tr
-                td.text-start Visual merchandising de vitrina
+                td.text-start Visual <em>merchandising</em> de vitrina
                 td.text-start Presenta productos en vitrinas para atraer clientes desde el exterior de la tienda.
                 td.text-start Tiendas de moda como H&M utilizan vitrinas temáticas para mostrar nuevas colecciones.
               tr.bg-table-01
-                td.text-start Visual merchandising interior
+                td.text-start Visual <em>merchandising</em> interior
                 td.text-start Organiza los productos dentro del establecimiento para mejorar su visibilidad.
                 td.text-start En supermercados como Walmart se utilizan señalización e iluminación para destacar productos.
               tr
-                td.text-start Visual merchandising promocional
+                td.text-start Visual <em>merchandising</em> promocional
                 td.text-start Destaca productos en oferta o campañas comerciales.
                 td.text-start En tiendas por departamento como Falabella se crean espacios especiales para promociones.
 
@@ -199,7 +199,7 @@
         .col-12.col-lg-10.mb-0(data-aos="flip-left") 
           .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
             h5 Tabla 3.
-            |  Estrategias de visual merchandising
+            |  Estrategias de visual <em>merchandising</em>
           .tabla-a.mb-0(data-aos="flip-left")
             table
               caption 
@@ -223,6 +223,21 @@
                   td.text-start Organización de productos según temporadas o campañas comerciales.
                   td.text-start En tiendas de decoración como IKEA se crean ambientes completos del hogar.
 
+      .row.justify-content-center.align-items-center.mb-5
+        .col-12.col-lg-8
+          .tarjeta.color-acento-contenido.p-4.rounded-4.mb-3(data-aos="zoom-in-right")
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12.col-lg-5.mb-lg-0.mb-3
+                figure
+                  img(src="@/assets/curso/tema4/img_13.png", class="img-fluid w-100")
+              .col-12.col-lg-7.mb-lg-0
+                h2.text-white.mb-5 Pódcast
+                TarjetaAudio.color-acento-botones.rounded-4.mb-0.p-3.px-4(
+                  texto="Nombre pódcast"
+                  :audio="require('@/assets/curso/tema4/img_13.png')"
+                  @audio-hover="mostrarIndicadorTarjetaAudio = True")
+                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+
       .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-12.col-lg-10.mb-5
           .tarjeta--bg-img.color-secundario-10.rounded-3.p-3.px-5.overflow-hidden
@@ -233,7 +248,7 @@
               .col-12.col-md-8.col-lg-10.p-4
                 .row.justify-content-between.align-items-center.g-3
                   .col-12.col-sm
-                    p.mb-0.fw-bold Ir al siguiente video donde se explica el concepto de visual merchandising y cómo la organización visual de los productos, la iluminación y el diseño del punto de venta influyen en la experiencia del cliente y en la decisión de compra.
+                    p.mb-0.fw-normal Ir al siguiente video donde se explica el concepto de visual <em>merchandising</em> y cómo la organización visual de los productos, la iluminación y el diseño del punto de venta influyen en la experiencia del cliente y en la decisión de compra.
                   .col-12.col-sm-auto
                     a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=Lchb0aEM-HE" target="_blank" rel="noopener noreferrer")
                       span Ver video
@@ -249,7 +264,7 @@
               .col-12.col-md-8.col-lg-10.p-4
                 .row.justify-content-between.align-items-center.g-3
                   .col-12.col-sm
-                    p.mb-0.fw-bold Consultar el libro Merchandising de Martínez (2017), páginas 67–83, donde se analizan aspectos relacionados con la distribución del espacio comercial, la ambientación del punto de venta y la presentación visual de los productos dentro del establecimiento.
+                    p.mb-0.fw-normal Consultar el libro Visual <em>Merchandising</em> de Martínez (2017), páginas 67 – 83, donde se analizan aspectos relacionados con la distribución del espacio comercial, la ambientación del punto de venta y la presentación visual de los productos dentro del establecimiento.
                   .col-12.col-sm-auto.pe-4
                     a.boton.color-acento-botones(href="https://digitk.areandina.edu.co/bitstream/handle/areandina/1370/Merchandising.pdf" target="_blank")
                       span Enlace

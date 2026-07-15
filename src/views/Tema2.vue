@@ -13,7 +13,7 @@
           figure.p-0.m-0.h-100
             img(src='@/assets/curso/tema2/img_1.png', class="img-fluid w-100 h-100 object-fit-cover").p-0
         .col-12.col-lg-7.p-5.px-4
-          p.mb-0 La exhibición es una estrategia fundamental dentro del merchandising que consiste en la presentación organizada y atractiva de los productos dentro del punto de venta. Su objetivo principal es captar la atención del cliente, facilitar la visualización de los productos y estimular la decisión de compra. Una adecuada exhibición permite mejorar la visibilidad de los productos, optimizar el uso del espacio comercial y orientar el recorrido de los consumidores dentro del establecimiento. Además, contribuye a reforzar la identidad de la marca y a generar una experiencia de compra más agradable para los clientes.
+          p.mb-0 La exhibición es una estrategia fundamental dentro del <em>merchandising</em> que consiste en la presentación organizada y atractiva de los productos dentro del punto de venta. Su objetivo principal es captar la atención del cliente, facilitar la visualización de los productos y estimular la decisión de compra. Una adecuada exhibición permite mejorar la visibilidad de los productos, optimizar el uso del espacio comercial y orientar el recorrido de los consumidores dentro del establecimiento. Además, contribuye a reforzar la identidad de la marca y a generar una experiencia de compra más agradable para los clientes.
 
     Separador
 
@@ -73,7 +73,7 @@
     .tarjeta.color-primario-5.p-4.rounded-4.mb-4.h-100.d-flex.align-items-center(data-aos="zoom-in-right")
       .row.justify-content-center.align-items-center.mb-0
         .col-12.col-lg-11.order-2.order-lg-1.mb-0
-          p.mb-0 Los tipos de exhibición constituyen una herramienta fundamental del vitrinismo y el visual merchandising, ya que permiten organizar y presentar los productos de manera estratégica para captar la atención del consumidor, facilitar su recorrido por el espacio comercial y fortalecer la comunicación de la propuesta de valor. La selección del tipo de exhibición depende de los objetivos comerciales, las características del producto, el público objetivo y el entorno de venta, contribuyendo a mejorar la experiencia de compra e impulsar las ventas.
+          p.mb-0 Los tipos de exhibición constituyen una herramienta fundamental del vitrinismo y el visual <em>merchandising</em>, ya que permiten organizar y presentar los productos de manera estratégica para captar la atención del consumidor, facilitar su recorrido por el espacio comercial y fortalecer la comunicación de la propuesta de valor. La selección del tipo de exhibición depende de los objetivos comerciales, las características del producto, el público objetivo y el entorno de venta, contribuyendo a mejorar la experiencia de compra e impulsar las ventas.
         .col-3.col-lg-1.mb-3.mb-lg-0.order-1.order-lg-2
           figure
             img(src='@/assets/curso/tema2/img_6.svg', class="img-fluid")
@@ -224,7 +224,7 @@
       .h2(data-aos="fade-right") 2.6 Usos
     .mb-0 
 
-    p.mb-5(data-aos="zoom-in-right") La exhibición se utiliza en diferentes tipos de establecimientos comerciales como supermercados, tiendas de ropa, farmacias, tiendas de tecnología y centros comerciales. Su correcta aplicación permite mejorar la organización del punto de venta y fortalecer las estrategias de marketing de la empresa. Por ejemplo, en tiendas de tecnología como Apple, los productos se exhiben en mesas abiertas que permiten a los clientes interactuar directamente con los dispositivos, lo que facilita la experiencia de compra y fomenta la exploración de los productos.
+    p.mb-5(data-aos="zoom-in-right") La exhibición se utiliza en diferentes tipos de establecimientos comerciales como supermercados, tiendas de ropa, farmacias, tiendas de tecnología y centros comerciales. Su correcta aplicación permite mejorar la organización del punto de venta y fortalecer las estrategias de <em>marketing</em> de la empresa. Por ejemplo, en tiendas de tecnología como Apple, los productos se exhiben en mesas abiertas que permiten a los clientes interactuar directamente con los dispositivos, lo que facilita la experiencia de compra y fomenta la exploración de los productos.
 
     .bg_img_8.mb-0
       .row.justify-content-center.align-items-center(data-aos="fade-right")
@@ -237,7 +237,7 @@
               .col-12.col-md-8.col-lg-10.p-4
                 .row.justify-content-between.align-items-center.g-3
                   .col-12.col-sm
-                    p.mb-0.fw-bold Leer el siguiente artículo donde se explican las diferencias entre exhibiciones verticales y horizontales en el punto de venta, así como sus ventajas y la forma en que influyen en la organización de los productos y en la experiencia de compra de los clientes dentro de las tiendas. 
+                    p.mb-0.fw-normal Leer el siguiente artículo donde se explican las diferencias entre exhibiciones verticales y horizontales en el punto de venta, así como sus ventajas y la forma en que influyen en la organización de los productos y en la experiencia de compra de los clientes dentro de las tiendas. 
                   .col-12.col-sm-auto.pe-4
                     a.boton.color-acento-botones(href="https://www.marcelaseggiaro.com/exhibiciones-verticales-y-horizontales/" target="_blank")
                       span Enlace
@@ -253,13 +253,13 @@
               .col-12.col-md-8.col-lg-10.p-4
                 .row.justify-content-between.align-items-center.g-3
                   .col-12.col-sm
-                    p.mb-0.fw-bold Ir a los siguientes videos donde se presentan recomendaciones sobre cómo realizar una adecuada exhibición de productos en el punto de venta, mostrando estrategias para organizar los artículos, mejorar su visibilidad y atraer la atención de los clientes dentro del establecimiento comercial.
+                    p.mb-0.fw-normal Ir a los siguientes videos donde se presentan recomendaciones sobre cómo realizar una adecuada exhibición de productos en el punto de venta, mostrando estrategias para organizar los artículos, mejorar su visibilidad y atraer la atención de los clientes dentro del establecimiento comercial.
                   .col-12.col-sm-auto
                     .d-flex.flex-column.gap-3.align-items-stretch
-                      a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=LnUX087fcsk" target="_blank" rel="noopener noreferrer")
+                      a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=Hl4zlHKQ6ts" target="_blank" rel="noopener noreferrer")
                         span Ver video 1
                         i.fa-solid.fa-circle-play.ms-2(aria-hidden="true")
-                      a.boton.color-acento-botones(href="URL_DEL_VIDEO_2" target="_blank" rel="noopener noreferrer")
+                      a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=zd_mKQqGEgo" target="_blank" rel="noopener noreferrer")
                         span Ver video 2
                         i.fa-solid.fa-circle-play.ms-2(aria-hidden="true")
 </template>

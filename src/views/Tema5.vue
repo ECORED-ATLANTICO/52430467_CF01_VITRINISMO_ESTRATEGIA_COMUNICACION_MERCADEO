@@ -59,7 +59,7 @@
 
     .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
       h5 Tabla 5.
-      |  Uso del color en el merchandising
+      |  Uso del color en el visual <em>merchandising</em>
     .tabla-a.mb-0(data-aos="flip-left")
       table
         caption 
@@ -72,47 +72,47 @@
             th.col-auto.col-lg-auto Ejemplos de uso común
         tbody
           tr
-            td.bg-table-Rojo Rojo
+            td.bg-table-Rojo.text-start Rojo
             td.text-start Estimula, crea urgencia, llama la atención
             td.text-start Aumenta el deseo de compra, útil en promociones.
             td.text-start Señales de descuento, ofertas, zonas de impulso
           tr.bg-table-01
-            td.bg-table-Azul Azul
+            td.bg-table-Azul.text-start Azul
             td.text-start Transmite confianza, tranquilidad y profesionalismo
             td.text-start Genera sensación de seguridad, ideal para fidelización.
             td.text-start Productos tecnológicos, marcas bancarias
           tr
-            td.bg-table-Amarillo Amarillo
+            td.bg-table-Amarillo.text-start Amarillo
             td.text-start Alegre, energético, estimula la atención
             td.text-start Aumenta la visibilidad y favorece la retención visual.
             td.text-start Áreas infantiles, anuncios llamativos
           tr.bg-table-01
-            td.bg-table-Verde Verde
+            td.bg-table-Verde.text-start Verde
             td.text-start Asociado con naturaleza, frescura y bienestar
             td.text-start Ideal para productos ecológicos o saludables
             td.text-start Supermercados, negocios verdes, farmacias
           tr
-            td.bg-table-Naranja Naranja
+            td.bg-table-Naranja.text-start Naranja
             td.text-start Entusiasmo, creatividad, dinamismo
             td.text-start Estimula la acción y el consumo impulsivo.
             td.text-start Tiendas deportivas, accesorios
           tr.bg-table-01
-            td.bg-table-Negro Negro
+            td.bg-table-Negro.text-start Negro
             td.text-start Elegancia, sofisticación
             td.text-start Transmite exclusividad y lujo.
             td.text-start Productos premium, vitrinas de moda
           tr
-            td.bg-table-Blanco Blanco
+            td.bg-table-Blanco.text-start Blanco
             td.text-start Limpieza, pureza, simplicidad
             td.text-start Genera sensación de orden y amplitud
             td.text-start Farmacias, tiendas de tecnología, vitrinas minimalistas
           tr.bg-table-01
-            td.bg-table-Rosa Rosa
+            td.bg-table-Rosa.text-start Rosa
             td.text-start Sensibilidad, ternura, feminidad
             td.text-start Crea un ambiente acogedor, usado en productos dirigidos a mujeres.
             td.text-start Cosméticos, moda femenina
           tr
-            td.bg-table-Morado Morado
+            td.bg-table-Morado.text-start Morado
             td.text-start Lujo, misterio, creatividad
             td.text-start Potencia productos exclusivos o innovadores.
             td.text-start Perfumería, productos de belleza
@@ -129,7 +129,7 @@
           figure
             img(src='@/assets/curso/tema5/img_6.svg', class="img-fluid")
         .col-12.col-lg-11.mb-0
-          p.mb-0 El comportamiento visual del consumidor hace referencia a la manera en que las personas reaccionan frente a estímulos visuales dentro del punto de venta. Factores como iluminación, ubicación de productos, colores y exhibiciones influyen en la atención, permanencia y decisión de compra del cliente. Las organizaciones comerciales utilizan estrategias de vitrinismo y merchandising visual para dirigir la mirada del consumidor hacia productos específicos y estimular la compra impulsiva.
+          p.mb-0 El comportamiento visual del consumidor hace referencia a la manera en que las personas reaccionan frente a estímulos visuales dentro del punto de venta. Factores como iluminación, ubicación de productos, colores y exhibiciones influyen en la atención, permanencia y decisión de compra del cliente. Las organizaciones comerciales utilizan estrategias de vitrinismo y visual <em>merchandising</em> para dirigir la mirada del consumidor hacia productos específicos y estimular la compra impulsiva.
 
     p.mb-4(data-aos="zoom-in-right") Entre los principales factores que influyen en el comportamiento visual del consumidor se encuentran:
 

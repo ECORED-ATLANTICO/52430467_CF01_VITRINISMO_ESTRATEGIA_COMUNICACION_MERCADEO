@@ -13,7 +13,7 @@
           figure.p-0.m-0.h-100
             img(src='@/assets/curso/tema6/img_1.png', class="img-fluid w-100 h-100 object-fit-cover").p-0
         .col-12.col-lg-7.p-5.px-4
-          p.mb-3 Las leyes de Gestalt corresponden a un conjunto de principios de percepción visual que explican cómo las personas organizan e interpretan imágenes, formas y elementos visuales dentro de un espacio. Estas leyes son utilizadas en el vitrinismo y el visual merchandising para diseñar exhibiciones organizadas, atractivas y fáciles de interpretar por los consumidores.
+          p.mb-3 Las leyes de Gestalt corresponden a un conjunto de principios de percepción visual que explican cómo las personas organizan e interpretan imágenes, formas y elementos visuales dentro de un espacio. Estas leyes son utilizadas en el vitrinismo y el visual <em>merchandising</em> para diseñar exhibiciones organizadas, atractivas y fáciles de interpretar por los consumidores.
           p.mb-0 En los espacios comerciales, la aplicación de las leyes de Gestalt permite destacar productos, organizar vitrinas y fortalecer la comunicación visual dentro del punto de venta.
 
     Separador
@@ -179,7 +179,7 @@
               .col-12.col-md-8.col-lg-10.p-4
                 .row.justify-content-between.align-items-center.g-3
                   .col-12.col-sm
-                    p.mb-0.fw-bold Ir al siguiente video donde se explican las leyes de Gestalt y su aplicación en la percepción visual, la organización de elementos y la comunicación visual dentro de vitrinas y espacios comerciales.
+                    p.mb-0.fw-normal Ir al siguiente video donde se explican las leyes de Gestalt y su aplicación en la percepción visual, la organización de elementos y la comunicación visual dentro de vitrinas y espacios comerciales.
                   .col-12.col-sm-auto
                     a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=pgPljQiSAZY&t=34s" target="_blank" rel="noopener noreferrer")
                       span Ver video

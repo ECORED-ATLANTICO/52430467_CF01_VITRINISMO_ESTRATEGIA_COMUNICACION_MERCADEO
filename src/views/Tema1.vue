@@ -32,7 +32,7 @@
       .bloque-texto-t__img.mb-0
         img(src='@/assets/curso/tema1/img_4.png')
       .bloque-texto-t__texto.col-10.mb-0.p-4.rounded-4
-        p.mb-0 El escaparatismo surgió como una forma básica de mostrar productos en vitrinas comerciales. Con el crecimiento del comercio y de los grandes almacenes, las exhibiciones comenzaron a incorporar elementos decorativos y estrategias visuales para atraer clientes. En la actualidad, el escaparatismo integra tecnologías digitales, experiencias sensoriales y visual merchandising para generar mayor impacto comercial.
+        p.mb-0 El escaparatismo surgió como una forma básica de mostrar productos en vitrinas comerciales. Con el crecimiento del comercio y de los grandes almacenes, las exhibiciones comenzaron a incorporar elementos decorativos y estrategias visuales para atraer clientes. En la actualidad, el escaparatismo integra tecnologías digitales, experiencias sensoriales y visual <em>merchandising</em> para generar mayor impacto comercial.
 
     .bg_img_2.mb-0
 
@@ -65,7 +65,7 @@
                     img(src='@/assets/curso/tema1/img_9.png', class="img-fluid")
                 .tarjeta-img-titulo__contenido
                   h5.tarjeta-img-titulo__titulo.mb-3 Estratégico
-                  p.mb-0 Integración de merchandising, comunicación visual y experiencia del consumidor.
+                  p.mb-0 Integración de <em>merchandising</em>, comunicación visual y experiencia del consumidor.
                   p.mb-0 #[strong Ejemplo comercial:] tiendas como Zara organizan vitrinas según temporadas y campañas comerciales.
               .tarjeta-img-titulo
                 .tarjeta-img-titulo__imagen
@@ -137,7 +137,7 @@
         figure
           img(src='@/assets/curso/tema1/img_16.png', class="img-fluid") 
       .col-12.col-lg-7
-        p.mb-4(data-aos="zoom-in-right") Las tendencias actuales del escaparatismo se orientan hacia la creación de experiencias visuales innovadoras y tecnológicas que permitan generar mayor interacción entre el consumidor y el punto de venta. Las empresas implementan recursos como iluminación LED, pantallas digitales, vitrinas temáticas y estrategias de marketing sensorial para fortalecer la exhibición comercial y mejorar la experiencia de compra.
+        p.mb-4(data-aos="zoom-in-right") Las tendencias actuales del escaparatismo se orientan hacia la creación de experiencias visuales innovadoras y tecnológicas que permitan generar mayor interacción entre el consumidor y el punto de venta. Las empresas implementan recursos como iluminación LED, pantallas digitales, vitrinas temáticas y estrategias de <em>marketing</em> sensorial para fortalecer la exhibición comercial y mejorar la experiencia de compra.
         .tarjeta.color-primario-5.p-4.px-5.rounded-4.mb-0(data-aos="zoom-in-right")
           p.mb-0 Asimismo, el escaparatismo contemporáneo incorpora diseños minimalistas y el uso de materiales sostenibles como parte de las nuevas estrategias de comunicación visual. Estas tendencias buscan optimizar la organización de los espacios comerciales, fortalecer la identidad visual de las marcas y generar ambientes más atractivos para los consumidores.
 
@@ -168,7 +168,7 @@
                   figure.mb-0
                     img(src='@/assets/curso/tema1/img_19.png', class="img-fluid")
                 .tarjeta-img-titulo__contenido
-                  h5.tarjeta-img-titulo__titulo.mb-3 Marketing sensorial
+                  h5.tarjeta-img-titulo__titulo.mb-3 <em>Marketing</em> sensorial
                   p.mb-0 Integra estímulos visuales y emocionales para fortalecer la experiencia del consumidor dentro del establecimiento comercial
               .tarjeta-img-titulo
                 .tarjeta-img-titulo__imagen
