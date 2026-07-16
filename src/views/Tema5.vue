@@ -11,7 +11,7 @@
       .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
         .bloque-texto-t__img.mb-0
           img(src='@/assets/curso/tema5/img_2.png')
-        .bloque-texto-t__texto.col-10.mb-0.p-4.rounded-4
+        .bloque-texto-t__texto.col-12.col-lg-10.mb-0.p-4.rounded-4
           p.mb-0 La percepción visual corresponde al proceso mediante el cual los consumidores interpretan los estímulos visuales presentes en vitrinas, exhibiciones y espacios comerciales. Elementos como colores, iluminación, formas, tamaños y organización visual influyen en la manera en que las personas observan y reaccionan frente a los productos dentro del punto de venta. En el vitrinismo, la percepción visual permite captar la atención del consumidor, orientar su recorrido y fortalecer la comunicación comercial mediante estrategias visuales organizadas y atractivas.
 
     Separador
@@ -26,7 +26,7 @@
           p.mb-0 La percepción visual es la capacidad que tienen las personas para interpretar imágenes, colores, formas y estímulos visuales presentes en su entorno. En el contexto comercial, este proceso influye directamente en la forma en que el consumidor observa los productos y toma decisiones de compra. Las empresas utilizan recursos visuales estratégicos para generar impacto, destacar productos y mejorar la experiencia del cliente dentro del establecimiento comercial.
         .col-3.col-lg-1.mb-3.mb-lg-0.order-1.order-lg-2
           figure
-            img(src='@/assets/curso/tema5/img_3.svg', class="img-fluid")
+            img(src='@/assets/curso/tema5/img_3.svg', class="iimg-fluid d-none d-lg-block")
 
     p.mb-4(data-aos="zoom-in-right") Entre los principales elementos de percepción visual se encuentran:
 

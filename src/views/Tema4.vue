@@ -24,13 +24,13 @@
     .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
       .bloque-texto-t__img.mb-0
         img(src='@/assets/curso/tema4/img_2.png')
-      .bloque-texto-t__texto.col-10.mb-0.p-4.rounded-4
+      .bloque-texto-t__texto.col-12.col-lg-10.mb-0.p-4.rounded-4
         .row.justify-content-center.align-items-center.mb-0
           .col-12.col-lg-10.order-2.order-lg-1.mb-0
             p.mb-0 Los fundamentos visuales corresponden a los elementos básicos utilizados en la organización y composición de vitrinas y espacios comerciales. Su aplicación permite crear exhibiciones equilibradas, atractivas y funcionales dentro del punto de venta. La correcta combinación de estos elementos contribuye a mejorar la visibilidad de los productos y fortalecer la comunicación comercial dentro del establecimiento.
           .col-3.col-lg-2.mb-3.mb-lg-0.order-1.order-lg-2
             figure
-              img(src='@/assets/curso/tema4/img_3.svg', class="img-fluid p-4") 
+              img(src='@/assets/curso/tema4/img_3.svg', class="img-fluid d-none d-lg-block") 
 
     p.mb-4(data-aos="zoom-in-right") Entre los principales fundamentos visuales se encuentran:
 
@@ -96,8 +96,8 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-7
         .tarjeta.color-secundario-20.p-4.px-5.rounded-4.mb-4(data-aos="zoom-in-right")
-          p.mb-0 La teoría visual estudia la manera en que los consumidores perciben e interpretan los elementos gráficos y visuales presentes en una exhibición comercial. Su aplicación permite organizar los espacios de manera estratégica para captar la atención del cliente y comunicar mensajes comerciales de forma efectiva. Dentro del vitrinismo, la teoría visual facilita la distribución de productos, la jerarquización de elementos y la creación de recorridos visuales dentro del escaparate o punto de venta.
-        p.mb-0(data-aos="zoom-in-right") Entre los principales aspectos utilizados en la teoría visual se encuentran:
+          p.mb-3 La teoría visual estudia la manera en que los consumidores perciben e interpretan los elementos gráficos y visuales presentes en una exhibición comercial. Su aplicación permite organizar los espacios de manera estratégica para captar la atención del cliente y comunicar mensajes comerciales de forma efectiva. Dentro del vitrinismo, la teoría visual facilita la distribución de productos, la jerarquización de elementos y la creación de recorridos visuales dentro del escaparate o punto de venta.
+        p.mb-3(data-aos="zoom-in-right") Entre los principales aspectos utilizados en la teoría visual se encuentran:
       .col-12.col-lg-5.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema4/img_12.png', class="img-fluid") 
@@ -143,7 +143,7 @@
         .col-12.col-lg-8
           .tarjeta.color-acento-contenido.p-4.rounded-4.mb-3(data-aos="zoom-in-right")
             .row.justify-content-center.align-items-center.mb-0
-              .col-12.col-lg-5.mb-lg-0.mb-3
+              .col-12.col-md-6.col-lg-5.mb-lg-0.mb-3
                 figure
                   img(src="@/assets/curso/tema4/img_13.png", class="img-fluid w-100")
               .col-12.col-lg-7.mb-lg-0

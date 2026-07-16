@@ -25,7 +25,7 @@
       .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
         .bloque-texto-t__img.mb-0
           img(src='@/assets/curso/tema2/img_3.png')
-        .bloque-texto-t__texto.col-10.mb-0.p-4.rounded-4
+        .bloque-texto-t__texto.col-12.col-lg-10.mb-0.p-4.rounded-4
           p.mb-0 La exhibición se refiere a la forma en que los productos se presentan dentro del establecimiento comercial para facilitar su visualización y estimular la compra por parte del consumidor. Esta estrategia implica la organización del mobiliario, la ubicación de los productos, el uso de iluminación y la creación de espacios atractivos que destaquen la oferta comercial. Una exhibición adecuada permite que los clientes identifiquen fácilmente los productos disponibles, comparen alternativas y tomen decisiones de compra de manera más rápida y cómoda.
 
     Separador
@@ -76,7 +76,7 @@
           p.mb-0 Los tipos de exhibición constituyen una herramienta fundamental del vitrinismo y el visual <em>merchandising</em>, ya que permiten organizar y presentar los productos de manera estratégica para captar la atención del consumidor, facilitar su recorrido por el espacio comercial y fortalecer la comunicación de la propuesta de valor. La selección del tipo de exhibición depende de los objetivos comerciales, las características del producto, el público objetivo y el entorno de venta, contribuyendo a mejorar la experiencia de compra e impulsar las ventas.
         .col-3.col-lg-1.mb-3.mb-lg-0.order-1.order-lg-2
           figure
-            img(src='@/assets/curso/tema2/img_6.svg', class="img-fluid")
+            img(src='@/assets/curso/tema2/img_6.svg', class="img-fluid d-none d-lg-block")
 
     p.mb-4(data-aos="zoom-in-right") La exhibición puede adoptar diferentes formas dependiendo del tipo de producto y de la estrategia comercial utilizada por la empresa. Entre los tipos de exhibición en el punto de venta tenemos:
 
@@ -166,7 +166,7 @@
       .row.justify-content-center.align-items-center.mb-0
         .col-3.col-lg-1.mb-3.mb-lg-0
           figure
-            img(src='@/assets/curso/tema2/img_14.svg', class="img-fluid")
+            img(src='@/assets/curso/tema2/img_14.svg', class="img-fluid d-none d-lg-block")
         .col-12.col-lg-11.mb-0
           p.mb-0 Las técnicas de exhibición son estrategias utilizadas para organizar y presentar los productos de manera atractiva, funcional y persuasiva dentro del punto de venta. Su aplicación busca captar la atención del consumidor, facilitar la visualización de los artículos, destacar sus atributos y orientar la decisión de compra. Estas técnicas combinan criterios de diseño, distribución, iluminación, color y comunicación visual para optimizar el aprovechamiento del espacio comercial y fortalecer la experiencia de compra.
 
@@ -229,39 +229,39 @@
     .bg_img_8.mb-0
       .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-12.col-lg-10.mb-5
-          .tarjeta--bg-img.color-primario-10.rounded-3.p-3.px-5.overflow-hidden
+          .tarjeta--bg-img.color-primario-10.rounded-3.p-3.px-2.px-lg-5.overflow-hidden
             .row.align-items-center.mb-0
               .col-8.col-md-4.col-lg-2.mx-auto.text-center.p-4
                 figure.m-0
                   img(src="@/assets/curso/tema2/img_23.svg")
               .col-12.col-md-8.col-lg-10.p-4
                 .row.justify-content-between.align-items-center.g-3
-                  .col-12.col-sm
+                  .col-12.col-md-12.col-lg-9
                     p.mb-0.fw-normal Leer el siguiente artículo donde se explican las diferencias entre exhibiciones verticales y horizontales en el punto de venta, así como sus ventajas y la forma en que influyen en la organización de los productos y en la experiencia de compra de los clientes dentro de las tiendas. 
-                  .col-12.col-sm-auto.pe-4
+                  .col-6.col-md-8.col-lg-3.pe-4.d-flex.flex-column.gap-3
                     a.boton.color-acento-botones(href="https://www.marcelaseggiaro.com/exhibiciones-verticales-y-horizontales/" target="_blank")
                       span Enlace
                       i.fas.fa-link.ms-2
 
       .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-12.col-lg-10.mb-5
-          .tarjeta--bg-img.color-secundario-10.rounded-3.p-3.px-5.overflow-hidden
+          .tarjeta--bg-img.color-secundario-10.rounded-3.p-3.px-2.px-lg-5.overflow-hidden
             .row.align-items-center.mb-0
               .col-8.col-md-4.col-lg-2.mx-auto.text-center.p-4
                 figure.m-0
                   img(src="@/assets/curso/tema2/img_24.svg")
               .col-12.col-md-8.col-lg-10.p-4
                 .row.justify-content-between.align-items-center.g-3
-                  .col-12.col-sm
+                  .col-12.col-md-12.col-lg-9
                     p.mb-0.fw-normal Ir a los siguientes videos donde se presentan recomendaciones sobre cómo realizar una adecuada exhibición de productos en el punto de venta, mostrando estrategias para organizar los artículos, mejorar su visibilidad y atraer la atención de los clientes dentro del establecimiento comercial.
-                  .col-12.col-sm-auto
-                    .d-flex.flex-column.gap-3.align-items-stretch
-                      a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=Hl4zlHKQ6ts" target="_blank" rel="noopener noreferrer")
-                        span Ver video 1
-                        i.fa-solid.fa-circle-play.ms-2(aria-hidden="true")
-                      a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=zd_mKQqGEgo" target="_blank" rel="noopener noreferrer")
-                        span Ver video 2
-                        i.fa-solid.fa-circle-play.ms-2(aria-hidden="true")
+                  .col-6.col-md-8.col-lg-3.pe-2.d-flex.flex-column.gap-3
+                    a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=Hl4zlHKQ6ts" target="_blank" rel="noopener noreferrer")
+                      span Ver video 1
+                      i.fa-solid.fa-circle-play.ms-2(aria-hidden="true")
+                    
+                    a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=zd_mKQqGEgo" target="_blank" rel="noopener noreferrer")
+                      span Ver video 2
+                      i.fa-solid.fa-circle-play.ms-2(aria-hidden="true")
 </template>
 
 <script>

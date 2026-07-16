@@ -18,7 +18,7 @@
             p.mb-4(data-aos="zoom-in-right") El componente formativo Fundamentos del vitrinismo aborda el estudio de la exhibición comercial y la comunicación visual como elementos estratégicos dentro de los espacios de venta. En este contexto, el vitrinismo permite organizar y presentar productos de manera atractiva mediante el uso de recursos visuales, favoreciendo la percepción del consumidor y fortaleciendo las estrategias de <em>merchandising</em> en el punto de venta.
           .col-2
             figure
-              img(src='@/assets/curso/introduccion/img_2.png', class="img-fluid") 
+              img(src='@/assets/curso/introduccion/img_2.png', class="img-fluid d-none d-lg-block") 
         .tarjeta.color-secundario-10.p-5.rounded-4.mb-0(data-aos="zoom-in-right")
           p.mb-0 A través del desarrollo de este componente se analizan conceptos relacionados con el escaparatismo, la exhibición de productos, el <em>merchandising</em> y los medios visuales, los cuales permiten comprender la importancia de la organización visual en la presentación comercial de productos y marcas. Asimismo, se estudian elementos de percepción visual y principios de Gestalt aplicados a vitrinas y espacios comerciales, orientados a mejorar la experiencia visual y la comunicación con el consumidor.
 

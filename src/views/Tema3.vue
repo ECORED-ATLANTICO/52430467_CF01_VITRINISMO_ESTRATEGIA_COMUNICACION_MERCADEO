@@ -11,7 +11,7 @@
       .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
         .bloque-texto-t__img.mb-0
           img(src='@/assets/curso/tema3/img_2.png')
-        .bloque-texto-t__texto.col-10.mb-0.p-4.rounded-4
+        .bloque-texto-t__texto.col-12.col-lg-10.mb-0.p-4.rounded-4
           p.mb-0 El <em>merchandising</em> es una estrategia fundamental dentro del <em>marketing</em> y la gestión del punto de venta, ya que permite mejorar la presentación de los productos y estimular la decisión de compra de los consumidores. A través de diferentes técnicas visuales, organizativas y promocionales, las empresas buscan hacer más atractiva la exhibición de los productos, optimizar el espacio comercial y facilitar la experiencia de compra de los clientes dentro del establecimiento.
 
       .row.justify-content-center.align-items-center.mb-0
@@ -75,7 +75,7 @@
               figure
                 img(src='@/assets/curso/tema3/img_8.png', class="img-fluid")
 
-      .tarjeta.color-terciario-5.p-4.rounded-4.mb-0(data-aos="zoom-in-right")
+      .tarjeta.color-terciario-5.p-4.rounded-4.mb-3(data-aos="zoom-in-right")
         p.mb-0 Por ejemplo, tiendas como Zara utilizan estrategias de <em>merchandising</em> visual mediante vitrinas atractivas, iluminación estratégica y organización de prendas para captar la atención del cliente.
 
     Separador
@@ -127,24 +127,24 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-7
           p.mb-4(data-aos="zoom-in-right") El <em>merchandising</em> se aplica en diferentes tipos de establecimientos comerciales como supermercados, tiendas de ropa, almacenes de tecnología y grandes superficies. Su implementación permite mejorar la organización del punto de venta, aumentar la visibilidad de los productos y fortalecer la comunicación entre la marca y el consumidor.
-          .tarjeta.color-primario-5.p-4.px-5.rounded-4.mb-0(data-aos="zoom-in-right")
-            p.mb-0 Un ejemplo de aplicación se observa en tiendas como IKEA, donde se utilizan ambientes simulados del hogar para exhibir muebles y accesorios, permitiendo que los clientes visualicen cómo se verían los productos en su propio espacio.
+            .tarjeta.color-primario-5.p-4.px-5.rounded-4.mb-0(data-aos="zoom-in-right")
+              p.mb-3 Un ejemplo de aplicación se observa en tiendas como IKEA, donde se utilizan ambientes simulados del hogar para exhibir muebles y accesorios, permitiendo que los clientes visualicen cómo se verían los productos en su propio espacio.
         .col-12.col-lg-5.mb-3.mb-lg-0(data-aos="zoom-in-right")
           figure
             img(src='@/assets/curso/tema3/img_12.png', class="img-fluid") 
 
       .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-12.col-lg-10.mb-5
-          .tarjeta--bg-img.color-secundario-10.rounded-3.p-3.px-5.overflow-hidden
+          .tarjeta--bg-img.color-secundario-10.rounded-3.p-3.px-2.px-lg-5.overflow-hidden
             .row.align-items-center.mb-0
               .col-8.col-md-4.col-lg-2.mx-auto.text-center.p-4
                 figure.m-0
                   img(src="@/assets/curso/tema2/img_24.svg")
               .col-12.col-md-8.col-lg-10.p-4
                 .row.justify-content-between.align-items-center.g-3
-                  .col-12.col-sm
+                  .col-12.col-md-12.col-lg-9
                     p.mb-0.fw-normal Ir al siguiente video donde se explica qué es el <em>merchandising</em> y cómo se aplica en el punto de venta para mejorar la presentación de los productos, atraer la atención del cliente y estimular la decisión de compra dentro del establecimiento comercial.
-                  .col-12.col-sm-auto
+                  .col-6.col-md-8.col-lg-3.pe-2.d-flex.flex-column.gap-3
                     a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=j_2UbHFnL74 " target="_blank" rel="noopener noreferrer")
                       span Ver video
                       i.fa-solid.fa-circle-play.ms-2(aria-hidden="true")
@@ -227,7 +227,7 @@
         .col-12.col-lg-8
           .tarjeta.color-acento-contenido.p-4.rounded-4.mb-3(data-aos="zoom-in-right")
             .row.justify-content-center.align-items-center.mb-0
-              .col-12.col-lg-5.mb-lg-0.mb-3
+              .col-12.col-md-6.col-lg-5.mb-lg-0.mb-3
                 figure
                   img(src="@/assets/curso/tema4/img_13.png", class="img-fluid w-100")
               .col-12.col-lg-7.mb-lg-0
@@ -240,32 +240,32 @@
 
       .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-12.col-lg-10.mb-5
-          .tarjeta--bg-img.color-secundario-10.rounded-3.p-3.px-5.overflow-hidden
+          .tarjeta--bg-img.color-secundario-10.rounded-3.p-3.px-2.px-lg-5.overflow-hidden
             .row.align-items-center.mb-0
               .col-8.col-md-4.col-lg-2.mx-auto.text-center.p-4
                 figure.m-0
                   img(src="@/assets/curso/tema2/img_24.svg")
               .col-12.col-md-8.col-lg-10.p-4
                 .row.justify-content-between.align-items-center.g-3
-                  .col-12.col-sm
+                  .col-12.col-md-12.col-lg-9
                     p.mb-0.fw-normal Ir al siguiente video donde se explica el concepto de visual <em>merchandising</em> y cómo la organización visual de los productos, la iluminación y el diseño del punto de venta influyen en la experiencia del cliente y en la decisión de compra.
-                  .col-12.col-sm-auto
+                  .col-6.col-md-8.col-lg-3.pe-2.d-flex.flex-column.gap-3
                     a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=Lchb0aEM-HE" target="_blank" rel="noopener noreferrer")
                       span Ver video
                       i.fa-solid.fa-circle-play.ms-2(aria-hidden="true")
 
       .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-12.col-lg-10.mb-5
-          .tarjeta--bg-img.color-primario-10.rounded-3.p-3.px-5.overflow-hidden
+          .tarjeta--bg-img.color-primario-10.rounded-3.p-3.px-2.px-lg-5.overflow-hidden
             .row.align-items-center.mb-0
               .col-8.col-md-4.col-lg-2.mx-auto.text-center.p-4
                 figure.m-0
                   img(src="@/assets/curso/tema2/img_23.svg")
               .col-12.col-md-8.col-lg-10.p-4
                 .row.justify-content-between.align-items-center.g-3
-                  .col-12.col-sm
+                  .col-12.col-md-12.col-lg-9
                     p.mb-0.fw-normal Consultar el libro Visual <em>Merchandising</em> de Martínez (2017), páginas 67 – 83, donde se analizan aspectos relacionados con la distribución del espacio comercial, la ambientación del punto de venta y la presentación visual de los productos dentro del establecimiento.
-                  .col-12.col-sm-auto.pe-4
+                  .col-6.col-md-8.col-lg-3.pe-2.d-flex.flex-column.gap-3
                     a.boton.color-acento-botones(href="https://digitk.areandina.edu.co/bitstream/handle/areandina/1370/Merchandising.pdf" target="_blank")
                       span Enlace
                       i.fas.fa-link.ms-2

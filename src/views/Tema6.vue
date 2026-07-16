@@ -25,13 +25,13 @@
     .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
       .bloque-texto-t__img.mb-0
         img(src='@/assets/curso/tema6/img_2.png')
-      .bloque-texto-t__texto.col-10.mb-0.p-4.rounded-4
+      .bloque-texto-t__texto.col-12.col-lg-10.mb-0.p-4.rounded-4
         .row.justify-content-center.align-items-center.mb-0
           .col-12.col-lg-10.order-2.order-lg-1.mb-0
             p.mb-0 La teoría Gestalt plantea que las personas perciben los elementos visuales como un conjunto organizado y no de manera aislada. Esto significa que el consumidor interpreta colores, formas y objetos según la relación visual existente entre ellos.
           .col-3.col-lg-2.mb-3.mb-lg-0.order-1.order-lg-2
             figure
-              img(src='@/assets/curso/tema6/img_3.svg', class="img-fluid p-4") 
+              img(src='@/assets/curso/tema6/img_3.svg', class="img-fluid d-none d-lg-block") 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-10.mb-5(data-aos="flip-left") 
@@ -171,16 +171,16 @@
     .bg_img_22.mb-0 
       .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-12.col-lg-10.mb-5
-          .tarjeta--bg-img.color-primario-10.rounded-3.p-3.px-5.overflow-hidden
+          .tarjeta--bg-img.color-primario-10.rounded-3.p-3.px-2.px-lg-5.overflow-hidden
             .row.align-items-center.mb-0
               .col-8.col-md-4.col-lg-2.mx-auto.text-center.p-4
                 figure.m-0
                   img(src="@/assets/curso/tema2/img_24.svg")
               .col-12.col-md-8.col-lg-10.p-4
                 .row.justify-content-between.align-items-center.g-3
-                  .col-12.col-sm
+                  .col-12.col-md-12.col-lg-9
                     p.mb-0.fw-normal Ir al siguiente video donde se explican las leyes de Gestalt y su aplicación en la percepción visual, la organización de elementos y la comunicación visual dentro de vitrinas y espacios comerciales.
-                  .col-12.col-sm-auto
+                  .col-6.col-md-8.col-lg-3.pe-2.d-flex.flex-column.gap-3
                     a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=pgPljQiSAZY&t=34s" target="_blank" rel="noopener noreferrer")
                       span Ver video
                       i.fa-solid.fa-circle-play.ms-2(aria-hidden="true")
@@ -189,7 +189,7 @@
         .col-12.col-lg-8
           .tarjeta.color-acento-contenido.p-4.rounded-4.mb-3(data-aos="zoom-in-right")
             .row.justify-content-center.align-items-center.mb-0
-              .col-12.col-lg-5.mb-lg-0.mb-3
+              .col-12.col-md-6.col-lg-5.mb-lg-0.mb-3
                 figure
                   img(src="@/assets/curso/tema4/img_13.png", class="img-fluid w-100")
               .col-12.col-lg-7.mb-lg-0
