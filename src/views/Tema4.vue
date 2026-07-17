@@ -102,7 +102,7 @@
         figure
           img(src='@/assets/curso/tema4/img_12.png', class="img-fluid") 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-2
       .col-12.col-lg-10.mb-5(data-aos="flip-left") 
         .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
           h5 Tabla 4.

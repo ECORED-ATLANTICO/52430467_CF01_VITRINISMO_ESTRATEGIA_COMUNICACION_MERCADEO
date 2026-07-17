@@ -82,7 +82,7 @@
 
     p.mb-4(data-aos="zoom-in-right") Las leyes de Gestalt constituyen principios de la percepción visual que orientan la organización de los elementos en una exhibición. Se aplican en vitrinas y exhibiciones comerciales para organizar productos de forma estratégica y generar armonía visual dentro del punto de venta. Estas herramientas permiten captar la atención del consumidor y fortalecer las estrategias de comunicación visual. Entre las mas importantes tenemos:
 
-    .bg_img_20.mb-0
+    .bg_img_20.mb-0.p-0
       .row.justify-content-center.align-items-start.mb-4
         .col-8.col-lg-4.mb-3.mb-lg-0(data-aos="flip-left")
           figure
@@ -98,7 +98,7 @@
             div(titulo="Figura y fondo")
               p.mb-0 Permite diferenciar un elemento principal de otros secundarios dentro de una composición visual. Se utiliza para destacar promociones, productos o mensajes comerciales importantes
 
-    .bg_img_21.mb-0
+    .bg_img_21.mb-0.p-0
       .row.justify-content-center.align-items-start.mb-4
         .col-12.col-lg-8.order-2.order-lg-1.mb-0(data-aos="zoom-in-right")
           AcordionA(tipo="a"  clase-tarjeta="tarjeta tarjeta--color-acento-contenido-10")
@@ -126,13 +126,13 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-5.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img(src='@/assets/curso/tema5/img_10.png', class="img-fluid") 
+          img(src='@/assets/curso/tema6/img_8.png', class="img-fluid") 
       .col-12.col-lg-7
         .tarjeta.color-secundario-10.p-4.rounded-4.mb-4(data-aos="zoom-in-right")
           p.mb-0 La organización visual corresponde a la distribución estratégica de productos, iluminación, colores y elementos decorativos dentro de vitrinas y espacios comerciales. Su objetivo es generar armonía visual, facilitar el recorrido del consumidor y fortalecer la exhibición de productos.
         p.mb-0(data-aos="zoom-in-right") Una adecuada organización visual mejora la percepción del establecimiento y contribuye a la experiencia de compra del consumidor dentro del punto de venta. Las leyes de Gestalt permiten comprender cómo los consumidores interpretan visualmente las exhibiciones comerciales y los espacios de venta. Su aplicación estratégica en el vitrinismo facilita la organización visual, fortalece la comunicación comercial y mejora la experiencia del consumidor dentro del establecimiento.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-2
       .col-12.col-lg-10.mb-5(data-aos="flip-left") 
         .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
           h5 Tabla 7.
@@ -168,7 +168,7 @@
                 td.text-start Ambienta y fortalece la exhibición comercial.
                 td.text-start Genera experiencias visuales atractivas en vitrinas.
 
-    .bg_img_22.mb-0 
+    .bg_img_22.mb-0.p-0
       .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-12.col-lg-10.mb-5
           .tarjeta--bg-img.color-primario-10.rounded-3.p-3.px-2.px-lg-5.overflow-hidden
@@ -180,9 +180,9 @@
                 .row.justify-content-between.align-items-center.g-3
                   .col-12.col-md-12.col-lg-9
                     p.mb-0.fw-normal Ir al siguiente video donde se explican las leyes de Gestalt y su aplicación en la percepción visual, la organización de elementos y la comunicación visual dentro de vitrinas y espacios comerciales.
-                  .col-6.col-md-8.col-lg-3.pe-2.d-flex.flex-column.gap-3
-                    a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=pgPljQiSAZY&t=34s" target="_blank" rel="noopener noreferrer")
-                      span Ver video
+                  .col-6.col-md-6.col-lg-3.pe-2.d-flex.flex-column.gap-3
+                    a.boton.color-acento-botones.d-flex.justify-content-center.align-items-center(href="https://www.youtube.com/watch?v=pgPljQiSAZY&t=34s" target="_blank" rel="noopener noreferrer")
+                      span Ir a video
                       i.fa-solid.fa-circle-play.ms-2(aria-hidden="true")
 
       .row.justify-content-center.align-items-center.mb-5

@@ -7,14 +7,14 @@
         span 5
       h1 Percepción visual
 
-    .bg_img_16.mb-0
+    .bg_img_16.mb-0.p-0
       .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
         .bloque-texto-t__img.mb-0
           img(src='@/assets/curso/tema5/img_2.png')
         .bloque-texto-t__texto.col-12.col-lg-10.mb-0.p-4.rounded-4
           p.mb-0 La percepción visual corresponde al proceso mediante el cual los consumidores interpretan los estímulos visuales presentes en vitrinas, exhibiciones y espacios comerciales. Elementos como colores, iluminación, formas, tamaños y organización visual influyen en la manera en que las personas observan y reaccionan frente a los productos dentro del punto de venta. En el vitrinismo, la percepción visual permite captar la atención del consumidor, orientar su recorrido y fortalecer la comunicación comercial mediante estrategias visuales organizadas y atractivas.
 
-    Separador
+    Separador.p-1
 
     #t_5_1.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 5.1 Concepto
@@ -164,10 +164,10 @@
     
     .bg_img_19.mb-0
       .row.justify-content-center.align-items-center.mb-5
-        .col-12.col-lg-5.mb-3.mb-lg-0(data-aos="zoom-in-right")
+        .col-12.col-lg-4.col-xl-5.mb-3.mb-lg-0(data-aos="zoom-in-right")
           figure
             img(src='@/assets/curso/tema5/img_10.png', class="img-fluid") 
-        .col-12.col-lg-7
+        .col-12.col-lg-8.col-xl-7.mb-0
           p.mb-4(data-aos="zoom-in-right") Por ejemplo, supermercados como Éxito ubican productos promocionales en zonas estratégicas para captar la atención del consumidor y aumentar las ventas.
           .tarjeta.color-secundario-10.p-4.rounded-4.mb-0(data-aos="zoom-in-right")
             p.mb-0 La percepción visual y el comportamiento del consumidor constituyen elementos fundamentales del vitrinismo y la comunicación comercial, debido a que permiten diseñar exhibiciones estratégicas orientadas a captar la atención, generar experiencias visuales y fortalecer las decisiones de compra dentro del punto de venta.

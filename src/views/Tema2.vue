@@ -124,8 +124,8 @@
       .h2(data-aos="fade-right") 2.4 Niveles
     .mb-0 
 
-    .bg_img_7.mb-0
-      .row.justify-content-center.align-items-center.mb-0
+    .bg_img_7.mb-3
+      .row.justify-content-center.align-items-center.mb-3
         .col-12.col-lg-8.mb-0(data-aos="flip-left") 
           p.mb-5(data-aos="zoom-in-right") Los niveles de exhibición corresponden a la altura a la que se ubican los productos dentro de las estanterías. Cada nivel tiene un impacto diferente en la visibilidad y en la probabilidad de compra. En supermercados y tiendas minoristas, los productos más rentables o con mayor margen de ganancia suelen ubicarse a la altura de los ojos, ya que es el nivel con mayor visibilidad para el consumidor.
           .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
@@ -140,19 +140,21 @@
                   th.col-auto.col-lg-4 Nivel
                   th.col-auto.col-lg-auto Características
               tbody
-                tr
+                tr.bg-table-Blanco
                   td.text-start Nivel superior
                   td.text-start Ubicación elevada con menor visibilidad para el cliente. 
                 tr.bg-table-01
                   td.text-start Nivel de los ojos
                   td.text-start Área con mayor visibilidad y probabilidad de compra.
-                tr
+                tr.bg-table-Blanco
                   td.text-start Nivel de las manos
                   td.text-start Fácil acceso para el cliente.
                 tr.bg-table-01
                   td.text-start Nivel inferior
                   td.text-start Zona con menor atención visual.
         .col-8.col-lg-4.mb-0(data-aos="flip-left") 
+          br
+          br
           figure
             img(src='@/assets/curso/tema2/img_13.png', class="img-fluid")
 
@@ -238,8 +240,8 @@
                 .row.justify-content-between.align-items-center.g-3
                   .col-12.col-md-12.col-lg-9
                     p.mb-0.fw-normal Leer el siguiente artículo donde se explican las diferencias entre exhibiciones verticales y horizontales en el punto de venta, así como sus ventajas y la forma en que influyen en la organización de los productos y en la experiencia de compra de los clientes dentro de las tiendas. 
-                  .col-6.col-md-8.col-lg-3.pe-4.d-flex.flex-column.gap-3
-                    a.boton.color-acento-botones(href="https://www.marcelaseggiaro.com/exhibiciones-verticales-y-horizontales/" target="_blank")
+                  .col-6.col-md-6.col-lg-3.pe-4.d-flex.flex-column.gap-3
+                    a.boton.color-acento-botones.d-flex.justify-content-center.align-items-center(href="https://www.marcelaseggiaro.com/exhibiciones-verticales-y-horizontales/" target="_blank")
                       span Enlace
                       i.fas.fa-link.ms-2
 
@@ -254,13 +256,13 @@
                 .row.justify-content-between.align-items-center.g-3
                   .col-12.col-md-12.col-lg-9
                     p.mb-0.fw-normal Ir a los siguientes videos donde se presentan recomendaciones sobre cómo realizar una adecuada exhibición de productos en el punto de venta, mostrando estrategias para organizar los artículos, mejorar su visibilidad y atraer la atención de los clientes dentro del establecimiento comercial.
-                  .col-6.col-md-8.col-lg-3.pe-2.d-flex.flex-column.gap-3
-                    a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=Hl4zlHKQ6ts" target="_blank" rel="noopener noreferrer")
-                      span Ver video 1
+                  .col-6.col-md-6.col-lg-3.pe-2.d-flex.flex-column.gap-3
+                    a.boton.color-acento-botones.d-flex.justify-content-center.align-items-center(href="https://www.youtube.com/watch?v=Hl4zlHKQ6ts" target="_blank" rel="noopener noreferrer")
+                      span Ir a video 1
                       i.fa-solid.fa-circle-play.ms-2(aria-hidden="true")
                     
-                    a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=zd_mKQqGEgo" target="_blank" rel="noopener noreferrer")
-                      span Ver video 2
+                    a.boton.color-acento-botones.d-flex.justify-content-center.align-items-center(href="https://www.youtube.com/watch?v=zd_mKQqGEgo" target="_blank" rel="noopener noreferrer")
+                      span Ir a video 2
                       i.fa-solid.fa-circle-play.ms-2(aria-hidden="true")
 </template>
 

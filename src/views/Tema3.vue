@@ -114,8 +114,8 @@
 
     br 
     br 
-
-    p.mb-0(data-aos="zoom-in-right") Estas técnicas permiten captar la atención del cliente, facilitar la identificación de productos y estimular la compra impulsiva dentro del punto de venta.
+    .tarjeta.color-terciario-5.p-4.rounded-4.mb-0(data-aos="zoom-in-right")
+      p.mb-0(data-aos="zoom-in-right") Estas técnicas permiten captar la atención del cliente, facilitar la identificación de productos y estimular la compra impulsiva dentro del punto de venta.
 
     Separador
 
@@ -144,9 +144,9 @@
                 .row.justify-content-between.align-items-center.g-3
                   .col-12.col-md-12.col-lg-9
                     p.mb-0.fw-normal Ir al siguiente video donde se explica qué es el <em>merchandising</em> y cómo se aplica en el punto de venta para mejorar la presentación de los productos, atraer la atención del cliente y estimular la decisión de compra dentro del establecimiento comercial.
-                  .col-6.col-md-8.col-lg-3.pe-2.d-flex.flex-column.gap-3
-                    a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=j_2UbHFnL74 " target="_blank" rel="noopener noreferrer")
-                      span Ver video
+                  .col-6.col-md-6.col-lg-3.pe-2.d-flex.flex-column.gap-3
+                    a.boton.color-acento-botones.d-flex.justify-content-center.align-items-center(href="https://www.youtube.com/watch?v=j_2UbHFnL74 " target="_blank" rel="noopener noreferrer")
+                      span Ir a video
                       i.fa-solid.fa-circle-play.ms-2(aria-hidden="true")
 
     Separador
@@ -161,7 +161,7 @@
           img(src='@/assets/curso/tema3/img_13.png', class="img-fluid") 
       .col-12.col-lg-7
         p.mb-4(data-aos="zoom-in-right") El visual <em>merchandising</em> se define como el conjunto de técnicas visuales utilizadas para presentar los productos de manera atractiva dentro del punto de venta. Estas técnicas incluyen el uso del color, la iluminación, el diseño del espacio, la decoración y la disposición de los productos. Su finalidad es captar la atención del cliente, facilitar la identificación de los productos y reforzar la imagen de la marca dentro del establecimiento comercial.
-        .tarjeta.color-primario-5.p-4.px-5.rounded-4.mb-3(data-aos="zoom-in-right")
+        .tarjeta.color-terciario-5.p-4.px-5.rounded-4.mb-3(data-aos="zoom-in-right")
           p.mb-0 Por ejemplo, tiendas de ropa como Zara utilizan vitrinas llamativas, iluminación estratégica y organización estética de las prendas para atraer clientes y destacar sus colecciones.
         p.mb-0(data-aos="zoom-in-right") El visual <em>merchandising</em> puede aplicarse de diferentes formas dentro del establecimiento comercial.
 
@@ -250,8 +250,8 @@
                   .col-12.col-md-12.col-lg-9
                     p.mb-0.fw-normal Ir al siguiente video donde se explica el concepto de visual <em>merchandising</em> y cómo la organización visual de los productos, la iluminación y el diseño del punto de venta influyen en la experiencia del cliente y en la decisión de compra.
                   .col-6.col-md-8.col-lg-3.pe-2.d-flex.flex-column.gap-3
-                    a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=Lchb0aEM-HE" target="_blank" rel="noopener noreferrer")
-                      span Ver video
+                    boton.color-acento-botones.d-flex.justify-content-center.align-items-center(href="https://www.youtube.com/watch?v=Lchb0aEM-HE" target="_blank" rel="noopener noreferrer")
+                      span Ir a video
                       i.fa-solid.fa-circle-play.ms-2(aria-hidden="true")
 
       .row.justify-content-center.align-items-center(data-aos="fade-right")
@@ -265,8 +265,8 @@
                 .row.justify-content-between.align-items-center.g-3
                   .col-12.col-md-12.col-lg-9
                     p.mb-0.fw-normal Consultar el libro Visual <em>Merchandising</em> de Martínez (2017), páginas 67 – 83, donde se analizan aspectos relacionados con la distribución del espacio comercial, la ambientación del punto de venta y la presentación visual de los productos dentro del establecimiento.
-                  .col-6.col-md-8.col-lg-3.pe-2.d-flex.flex-column.gap-3
-                    a.boton.color-acento-botones(href="https://digitk.areandina.edu.co/bitstream/handle/areandina/1370/Merchandising.pdf" target="_blank")
+                  .col-6.col-md-6.col-lg-3.pe-2.d-flex.flex-column.gap-3
+                    a.boton.color-acento-botones.d-flex.justify-content-center.align-items-center(href="https://digitk.areandina.edu.co/bitstream/handle/areandina/1370/Merchandising.pdf" target="_blank")
                       span Enlace
                       i.fas.fa-link.ms-2
 </template>
