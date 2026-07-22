@@ -258,11 +258,11 @@
                     p.mb-0.fw-normal Ir a los siguientes videos donde se presentan recomendaciones sobre cómo realizar una adecuada exhibición de productos en el punto de venta, mostrando estrategias para organizar los artículos, mejorar su visibilidad y atraer la atención de los clientes dentro del establecimiento comercial.
                   .col-6.col-md-6.col-lg-3.pe-2.d-flex.flex-column.gap-3
                     a.boton.color-acento-botones.d-flex.justify-content-center.align-items-center(href="https://www.youtube.com/watch?v=Hl4zlHKQ6ts" target="_blank" rel="noopener noreferrer")
-                      span Ir a video 1
+                      span Ir al video 1
                       i.fa-solid.fa-circle-play.ms-2(aria-hidden="true")
                     
                     a.boton.color-acento-botones.d-flex.justify-content-center.align-items-center(href="https://www.youtube.com/watch?v=zd_mKQqGEgo" target="_blank" rel="noopener noreferrer")
-                      span Ir a video 2
+                      span Ir al video 2
                       i.fa-solid.fa-circle-play.ms-2(aria-hidden="true")
 </template>
 

@@ -146,7 +146,7 @@
                     p.mb-0.fw-normal Ir al siguiente video donde se explica qué es el <em>merchandising</em> y cómo se aplica en el punto de venta para mejorar la presentación de los productos, atraer la atención del cliente y estimular la decisión de compra dentro del establecimiento comercial.
                   .col-6.col-md-6.col-lg-3.pe-2.d-flex.flex-column.gap-3
                     a.boton.color-acento-botones.d-flex.justify-content-center.align-items-center(href="https://www.youtube.com/watch?v=j_2UbHFnL74 " target="_blank" rel="noopener noreferrer")
-                      span Ir a video
+                      span Ir al video
                       i.fa-solid.fa-circle-play.ms-2(aria-hidden="true")
 
     Separador
@@ -251,7 +251,7 @@
                     p.mb-0.fw-normal Ir al siguiente video donde se explica el concepto de visual <em>merchandising</em> y cómo la organización visual de los productos, la iluminación y el diseño del punto de venta influyen en la experiencia del cliente y en la decisión de compra.
                   .col-6.col-md-8.col-lg-3.pe-2.d-flex.flex-column.gap-3
                     boton.color-acento-botones.d-flex.justify-content-center.align-items-center(href="https://www.youtube.com/watch?v=Lchb0aEM-HE" target="_blank" rel="noopener noreferrer")
-                      span Ir a video
+                      span Ir al video
                       i.fa-solid.fa-circle-play.ms-2(aria-hidden="true")
 
       .row.justify-content-center.align-items-center(data-aos="fade-right")

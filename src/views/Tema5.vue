@@ -164,10 +164,10 @@
     
     .bg_img_19.mb-0
       .row.justify-content-center.align-items-center.mb-5
-        .col-12.col-lg-4.col-xl-5.mb-3.mb-lg-0(data-aos="zoom-in-right")
+        .col-12.col-lg-4.col-xl-4.mb-3.mb-lg-0(data-aos="zoom-in-right")
           figure
             img(src='@/assets/curso/tema5/img_10.png', class="img-fluid") 
-        .col-12.col-lg-8.col-xl-7.mb-0
+        .col-12.col-lg-8.col-xl-8.mb-0
           p.mb-4(data-aos="zoom-in-right") Por ejemplo, supermercados como Éxito ubican productos promocionales en zonas estratégicas para captar la atención del consumidor y aumentar las ventas.
           .tarjeta.color-secundario-10.p-4.rounded-4.mb-0(data-aos="zoom-in-right")
             p.mb-0 La percepción visual y el comportamiento del consumidor constituyen elementos fundamentales del vitrinismo y la comunicación comercial, debido a que permiten diseñar exhibiciones estratégicas orientadas a captar la atención, generar experiencias visuales y fortalecer las decisiones de compra dentro del punto de venta.

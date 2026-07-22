@@ -182,7 +182,7 @@
                     p.mb-0.fw-normal Ir al siguiente video donde se explican las leyes de Gestalt y su aplicación en la percepción visual, la organización de elementos y la comunicación visual dentro de vitrinas y espacios comerciales.
                   .col-6.col-md-6.col-lg-3.pe-2.d-flex.flex-column.gap-3
                     a.boton.color-acento-botones.d-flex.justify-content-center.align-items-center(href="https://www.youtube.com/watch?v=pgPljQiSAZY&t=34s" target="_blank" rel="noopener noreferrer")
-                      span Ir a video
+                      span Ir al video
                       i.fa-solid.fa-circle-play.ms-2(aria-hidden="true")
 
       .row.justify-content-center.align-items-center.mb-5
