@@ -59,7 +59,7 @@
 
     .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
       h5 Tabla 5.
-      |  Uso del color en el visual <em>merchandising</em>
+      |  Uso del color en el <em>merchandising</em>
     .tabla-a.mb-0(data-aos="flip-left")
       table
         caption 
@@ -129,7 +129,7 @@
           figure
             img(src='@/assets/curso/tema5/img_6.svg', class="img-fluid")
         .col-12.col-lg-11.mb-0
-          p.mb-0 El comportamiento visual del consumidor hace referencia a la manera en que las personas reaccionan frente a estímulos visuales dentro del punto de venta. Factores como iluminación, ubicación de productos, colores y exhibiciones influyen en la atención, permanencia y decisión de compra del cliente. Las organizaciones comerciales utilizan estrategias de vitrinismo y visual <em>merchandising</em> para dirigir la mirada del consumidor hacia productos específicos y estimular la compra impulsiva.
+          p.mb-0 El comportamiento visual del consumidor hace referencia a la manera en que las personas reaccionan frente a estímulos visuales dentro del punto de venta. Factores como iluminación, ubicación de productos, colores y exhibiciones influyen en la atención, permanencia y decisión de compra del cliente. Las organizaciones comerciales utilizan estrategias de vitrinismo y merchandising visual para dirigir la mirada del consumidor hacia productos específicos y estimular la compra impulsiva.
 
     p.mb-4(data-aos="zoom-in-right") Entre los principales factores que influyen en el comportamiento visual del consumidor se encuentran:
 

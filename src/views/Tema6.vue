@@ -13,7 +13,7 @@
           figure.p-0.m-0.h-100
             img(src='@/assets/curso/tema6/img_1.png', class="img-fluid w-100 h-100 object-fit-cover").p-0
         .col-12.col-lg-7.p-5.px-4
-          p.mb-3 Las leyes de Gestalt corresponden a un conjunto de principios de percepción visual que explican cómo las personas organizan e interpretan imágenes, formas y elementos visuales dentro de un espacio. Estas leyes son utilizadas en el vitrinismo y el visual <em>merchandising</em> para diseñar exhibiciones organizadas, atractivas y fáciles de interpretar por los consumidores.
+          p.mb-3 Las leyes de Gestalt corresponden a un conjunto de principios de percepción visual que explican cómo las personas organizan e interpretan imágenes, formas y elementos visuales dentro de un espacio. Estas leyes son utilizadas en el vitrinismo y el <em>visual merchandising</em> para diseñar exhibiciones organizadas, atractivas y fáciles de interpretar por los consumidores.
           p.mb-0 En los espacios comerciales, la aplicación de las leyes de Gestalt permite destacar productos, organizar vitrinas y fortalecer la comunicación visual dentro del punto de venta.
 
     Separador
@@ -94,9 +94,9 @@
             div(titulo="Semejanza")
               p.mb-0 Los elementos con colores, formas o tamaños similares tienden a percibirse como parte de una misma categoría. Esta ley permite generar coherencia visual dentro de la exhibición comercial.
             div(titulo="Continuidad")
-              p.mb-0 El ojo humano sigue líneas y recorridos visuales de manera natural. En el vitrinismo se aplica para dirigir la mirada del consumidor hacia productos estratégicos dentro del punto de venta
+              p.mb-0 El ojo humano sigue líneas y recorridos visuales de manera natural. En el vitrinismo se aplica para dirigir la mirada del consumidor hacia productos estratégicos dentro del punto de venta.
             div(titulo="Figura y fondo")
-              p.mb-0 Permite diferenciar un elemento principal de otros secundarios dentro de una composición visual. Se utiliza para destacar promociones, productos o mensajes comerciales importantes
+              p.mb-0 Permite diferenciar un elemento principal de otros secundarios dentro de una composición visual. Se utiliza para destacar promociones, productos o mensajes comerciales importantes.
 
     .bg_img_21.mb-0.p-0
       .row.justify-content-center.align-items-start.mb-4
@@ -107,7 +107,7 @@
             div(titulo="Simetría")
               p.mb-0 Los elementos organizados de forma equilibrada generan sensación de orden y armonía visual. Su aplicación mejora la percepción estética de vitrinas y espacios comerciales.
             div(titulo="Pregnancia o buena forma")
-              p.mb-0 El cerebro interpreta más fácilmente las formas simples, organizadas y equilibradas. En exhibiciones comerciales se utiliza para facilitar la comprensión visual de los productos y mensajes
+              p.mb-0 El cerebro interpreta más fácilmente las formas simples, organizadas y equilibradas. En exhibiciones comerciales se utiliza para facilitar la comprensión visual de los productos y mensajes.
             div(titulo="Destino común")
               p.mb-0 Los elementos que parecen dirigirse hacia una misma dirección son percibidos como relacionados. En vitrinas y exhibiciones ayuda a crear sensación de movimiento y dinamismo visual.
         .col-8.col-lg-4.mb-3.mb-lg-0.order-1.order-lg-2(data-aos="flip-left")
@@ -179,7 +179,7 @@
               .col-12.col-md-8.col-lg-10.p-4
                 .row.justify-content-between.align-items-center.g-3
                   .col-12.col-md-12.col-lg-9
-                    p.mb-0.fw-normal Ir al siguiente video donde se explican las leyes de Gestalt y su aplicación en la percepción visual, la organización de elementos y la comunicación visual dentro de vitrinas y espacios comerciales.
+                    p.mb-0.fw-normal Se invita a explorar el siguiente video donde se explican las leyes de Gestalt y su aplicación en la percepción visual, la organización de elementos y la comunicación visual dentro de vitrinas y espacios comerciales. 
                   .col-6.col-md-6.col-lg-3.pe-2.d-flex.flex-column.gap-3
                     a.boton.color-acento-botones.d-flex.justify-content-center.align-items-center(href="https://www.youtube.com/watch?v=pgPljQiSAZY&t=34s" target="_blank" rel="noopener noreferrer")
                       span Ir al video

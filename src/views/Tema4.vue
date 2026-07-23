@@ -13,7 +13,7 @@
           figure.p-0.m-0.h-100
             img(src='@/assets/curso/tema4/img_1.png', class="img-fluid w-100 h-100 object-fit-cover").p-0
         .col-12.col-lg-7.p-5.px-4
-          p.mb-0 Los medios visuales y la comunicación constituyen elementos fundamentales dentro del vitrinismo y el visual <em>merchandising</em>, ya que permiten transmitir mensajes comerciales mediante recursos gráficos, colores, iluminación, formas y composición visual. Estos elementos facilitan la interacción entre el establecimiento comercial y el consumidor, fortaleciendo la identidad visual de la marca y favoreciendo la exhibición de productos en el punto de venta. En los espacios comerciales, la comunicación visual busca captar la atención del cliente, orientar su recorrido y generar experiencias visuales atractivas que influyan en la percepción y decisión de compra.
+          p.mb-0 Los medios visuales y la comunicación constituyen elementos fundamentales dentro del vitrinismo y el <em>visual merchandising</em>, ya que permiten transmitir mensajes comerciales mediante recursos gráficos, colores, iluminación, formas y composición visual. Estos elementos facilitan la interacción entre el establecimiento comercial y el consumidor, fortaleciendo la identidad visual de la marca y favoreciendo la exhibición de productos en el punto de venta. En los espacios comerciales, la comunicación visual busca captar la atención del cliente, orientar su recorrido y generar experiencias visuales atractivas que influyan en la percepción y decisión de compra.
 
     Separador
 

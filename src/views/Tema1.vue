@@ -17,7 +17,7 @@
           .tarjeta.color-secundario-10.p-4.rounded-4.mb-0(data-aos="zoom-in-right")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-10.mb-0
-                p.mb-0 El escaparatismo es una estrategia de comunicación visual utilizada en los establecimientos comerciales para exhibir productos de forma atractiva y captar la atención de los consumidores. A través de elementos como iluminación, color, distribución y ambientación, las vitrinas buscan fortalecer la imagen de marca y estimular las ventas.
+                p.mb-0 Actualmente, el escaparatismo hace parte del merchandising y del marketing visual, debido a su influencia en la experiencia de compra y en el comportamiento del consumidor.
               .col-4.col-lg-2.mb-3.mb-lg-0
                 figure
                   img(src='@/assets/curso/tema1/img_3.svg', class="img-fluid d-none d-lg-block") 

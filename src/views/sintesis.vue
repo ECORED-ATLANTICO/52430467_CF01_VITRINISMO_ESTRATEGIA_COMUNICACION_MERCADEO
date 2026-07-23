@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p El componente formativo Fundamentos del vitrinismo aborda el estudio de la historia del escaparatismo, incluyendo su evolución, importancia y tendencias; continúa con la exhibición de productos, considerando concepto, zonas, tipos, niveles, técnicas y usos; y desarrolla el <em>merchandising</em>, integrando concepto, tipos, técnicas, aplicabilidad y visual <em>merchandising</em>. Asimismo, analiza los medios visuales y la comunicación mediante fundamentos y teoría visual; profundiza en la percepción visual, incluyendo concepto, dinámicas visuales y comportamiento visual del consumidor; y finaliza con las leyes de Gestalt, considerando sus principios, aplicación y organización visual de espacios y productos en contextos comerciales.
+    p El componente formativo Fundamentos del vitrinismo aborda el estudio de la historia del escaparatismo, incluyendo su evolución, importancia y tendencias; continúa con la exhibición de productos, considerando concepto, zonas, tipos, niveles, técnicas y usos; y desarrolla el <em>merchandising</em>, integrando concepto, tipos, técnicas, aplicabilidad y <em>visual merchandising</em>. Asimismo, analiza los medios visuales y la comunicación mediante fundamentos y teoría visual; profundiza en la percepción visual, incluyendo concepto, dinámicas visuales y comportamiento visual del consumidor; y finaliza con las leyes de Gestalt, considerando sus principios, aplicación y organización visual de espacios y productos en contextos comerciales.
     .row.justify-content-center
       .col-lg-12.mb-5.bgs.p-4.brad
         figure

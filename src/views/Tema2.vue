@@ -102,7 +102,7 @@
           .row.justify-content-center.align-items-center.mb-0
             .col-12.col-lg-6.mb-0.order-2.order-lg-1
               h5.mb-4 Exhibición masiva
-              p.mb-0 consiste en colocar una gran cantidad de productos agrupados en un mismo espacio para generar impacto visual y transmitir sensación de abundancia. Es común en promociones o lanzamientos de productos.
+              p.mb-0 Consiste en colocar una gran cantidad de productos agrupados en un mismo espacio para generar impacto visual y transmitir sensación de abundancia. Es común en promociones o lanzamientos de productos.
             .col-12.col-lg-6.mb-3.mb-lg-0.order-1.order-lg-2
               figure
                 img(src='@/assets/curso/tema2/img_10.png', class="img-fluid")

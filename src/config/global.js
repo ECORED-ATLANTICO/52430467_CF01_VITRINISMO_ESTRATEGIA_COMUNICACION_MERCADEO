@@ -292,7 +292,7 @@ export default {
         'Sensaciones y percepciones generadas en el consumidor durante el proceso comercial.',
     },
     {
-      termino: '<em>Gestalt</em>',
+      termino: 'Gestalt',
       significado:
         'Teoría de percepción visual basada en la organización de elementos como un conjunto integrado.',
     },
