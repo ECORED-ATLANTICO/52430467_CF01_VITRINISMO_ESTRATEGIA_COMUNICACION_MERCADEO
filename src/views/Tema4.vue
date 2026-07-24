@@ -85,7 +85,7 @@
       .col-12.col-lg-8
         .tarjeta.color-terciario-5.p-4.px-5.rounded-4.mb-3(data-aos="zoom-in-right")
           p.mb-0 Por ejemplo, tiendas como Zara y Nike utilizan iluminación estratégica, colores neutros y composición visual organizada para fortalecer la experiencia del consumidor y destacar sus productos.
-        p.mb-0(data-aos="zoom-in-right") Escaparate de una tienda de Nike con fachada de vidrio que permite observar la exhibición de productos deportivos en el interior del establecimiento. Este tipo de vitrina abierta forma parte del escaparatismo, estrategia que utiliza iluminación, diseño y presentación visual para atraer la atención de los clientes y resaltar la marca.
+        p.mb-0(data-aos="zoom-in-right") Por ejemplo, tiendas como Zara y Nike utilizan iluminación estratégica y fachadas de vidrio que permiten observar la exhibición de productos en el interior del establecimiento. Este tipo de vitrinas abiertas forman parte del escaparatismo, estrategia que utiliza iluminación, diseño y presentación visual para atraer la atención de los clientes y resaltar la marca. Además, se utilizan colores neutros y composición visual organizada para fortalecer la experiencia del consumidor y destacar sus productos.
 
     Separador
 
@@ -137,7 +137,7 @@
     .bg_img_15.mb-0
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-10.mb-0(data-aos="flip-left") 
-          p.mb-0 Los fundamentos y la teoría visuales permiten organizar estratégicamente los espacios comerciales y las vitrinas para fortalecer la comunicación visual, mejorar la experiencia del consumidor y favorecer las estrategias de exhibición dentro del punto de venta.
+          p.mb-0 Los fundamentos y las teorías visuales permiten organizar estratégicamente los espacios comerciales y las vitrinas para fortalecer la comunicación visual, mejorar la experiencia del consumidor y favorecer las estrategias de exhibición dentro del punto de venta.
 
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-8
@@ -149,7 +149,7 @@
               .col-12.col-lg-7.mb-lg-0
                 h2.text-white.mb-5 Pódcast
                 TarjetaAudio.color-acento-botones.rounded-4.mb-0.p-3.px-4(
-                  texto="Nombre pódcast"
+                  texto="El merchandising como herramienta clave para el crecimiento de los emprendimientos"
                   :audio="require('@/assets/curso/tema4/img_13.png')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = True")
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
