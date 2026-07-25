@@ -143,7 +143,7 @@
               .col-12.col-md-8.col-lg-10.p-4
                 .row.justify-content-between.align-items-center.g-3
                   .col-12.col-md-12.col-lg-9
-                    p.mb-0.fw-normal Se invita a explorar el siguiente video donde se explica qué es el <em>merchandising</em> y cómo se aplica en el punto de venta para mejorar la presentación de los productos, atraer la atención del cliente y estimular la decisión de compra dentro del establecimiento comercial. 
+                    p.mb-0.fw-normal Para ampliar la información, se sugiere explorar el siguiente video donde se explica qué es el <em>merchandising</em> y cómo se aplica en el punto de venta para mejorar la presentación de los productos, atraer la atención del cliente y estimular la decisión de compra dentro del establecimiento comercial. 
                   .col-6.col-md-6.col-lg-3.pe-2.d-flex.flex-column.gap-3
                     a.boton.color-acento-botones.d-flex.justify-content-center.align-items-center(href="https://www.youtube.com/watch?v=j_2UbHFnL74 " target="_blank" rel="noopener noreferrer")
                       span Ir al video
@@ -170,7 +170,7 @@
         .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
           h5 Tabla 2.
           |  Tipos de <em>visual merchandising</em>
-        .tabla-a.mb-0(data-aos="flip-left")
+        .tabla-a.mb-0(data-aos="flip-left").mb-5
           table
             caption 
               p.mb-0 Nota. Adaptado de Kotler y Keller, (2016).
@@ -193,7 +193,8 @@
                 td.text-start Destaca productos en oferta o campañas comerciales.
                 td.text-start En tiendas por departamento como Falabella se crean espacios especiales para promociones.
 
-
+        .p-mb-0 Las empresas aplican diversas estrategias de visual <em>merchandising</em> para mejorar la presentación de los productos dentro del punto de venta.
+    
     .bg_img_13.mb-0
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-10.mb-0(data-aos="flip-left") 

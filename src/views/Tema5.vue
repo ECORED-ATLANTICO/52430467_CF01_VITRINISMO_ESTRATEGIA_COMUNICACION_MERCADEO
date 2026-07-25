@@ -55,7 +55,7 @@
       .h2(data-aos="fade-right") 5.2 Dinámicas visuales
     .mb-0 
 
-    p.mb-4(data-aos="zoom-in-right") Las dinámicas visuales corresponden a la forma en que se organizan los elementos dentro de una exhibición para dirigir la atención del consumidor y generar equilibrio visual. Estas dinámicas permiten crear recorridos visuales que facilitan la observación de los productos y fortalecen la comunicación comercial. A continuación, se presenta una tabla con los principales colores utilizados en merchandising, su impacto psicológico, beneficios y aplicaciones más comunes.  
+    p.mb-4(data-aos="zoom-in-right") Las dinámicas visuales corresponden a la forma en que se organizan los elementos dentro de una exhibición para dirigir la atención del consumidor y generar equilibrio visual. Estas dinámicas permiten crear recorridos visuales que facilitan la observación de los productos y fortalecen la comunicación comercial. A continuación, se presenta una tabla con los principales colores utilizados en el <em>merchandising</em>, su impacto psicológico, beneficios y aplicaciones más comunes.  
 
     .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
       h5 Tabla 5.
@@ -129,7 +129,7 @@
           figure
             img(src='@/assets/curso/tema5/img_6.svg', class="img-fluid")
         .col-12.col-lg-11.mb-0
-          p.mb-0 El comportamiento visual del consumidor hace referencia a la manera en que las personas reaccionan frente a estímulos visuales dentro del punto de venta. Factores como iluminación, ubicación de productos, colores y exhibiciones influyen en la atención, permanencia y decisión de compra del cliente. Las organizaciones comerciales utilizan estrategias de vitrinismo y merchandising visual para dirigir la mirada del consumidor hacia productos específicos y estimular la compra impulsiva.
+          p.mb-0 El comportamiento visual del consumidor hace referencia a la manera en que las personas reaccionan frente a estímulos visuales dentro del punto de venta. Factores como iluminación, ubicación de productos, colores y exhibiciones influyen en la atención, permanencia y decisión de compra del cliente. Las organizaciones comerciales utilizan estrategias de vitrinismo y <em>merchandising visual</em> para dirigir la mirada del consumidor hacia productos específicos y estimular la compra impulsiva.
 
     p.mb-4(data-aos="zoom-in-right") Entre los principales factores que influyen en el comportamiento visual del consumidor se encuentran:
 
