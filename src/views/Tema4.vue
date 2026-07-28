@@ -150,7 +150,7 @@
                 h2.text-white.mb-5 Pódcast
                 TarjetaAudio.color-acento-botones.rounded-4.mb-0.p-3.px-4(
                   texto="El merchandising como herramienta clave para el crecimiento de los emprendimientos"
-                  :audio="require('@/assets/curso/tema4/img_13.png')"
+                  :audio="require('@/assets/curso/podcast/podcast_1.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = True")
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 </template>

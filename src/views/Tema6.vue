@@ -196,7 +196,7 @@
                 h2.text-white.mb-5 Pódcast
                 TarjetaAudio.color-acento-botones.rounded-4.mb-0.p-3.px-4(
                   texto="Las leyes de Gestalt: estrategias para aumentar las ventas y la productividad en los negocios"
-                  :audio="require('@/assets/curso/tema4/img_13.png')"
+                  :audio="require('@/assets/curso/podcast/podcast_2.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = True")
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 </template>
