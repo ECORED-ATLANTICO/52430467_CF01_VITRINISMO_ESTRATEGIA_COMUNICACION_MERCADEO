@@ -17,7 +17,7 @@
           .tarjeta.color-secundario-10.p-4.rounded-4.mb-0(data-aos="zoom-in-right")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-10.mb-0
-                p.mb-0 Actualmente, el escaparatismo hace parte del merchandising y del marketing visual, debido a su influencia en la experiencia de compra y en el comportamiento del consumidor.
+                p.mb-0 Actualmente, el escaparatismo hace parte del <em>merchandising</em> y del <em>marketing</em> visual, debido a su influencia en la experiencia de compra y en el comportamiento del consumidor.
               .col-4.col-lg-2.mb-3.mb-lg-0
                 figure
                   img(src='@/assets/curso/tema1/img_3.svg', class="img-fluid d-none d-lg-block") 

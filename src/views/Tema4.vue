@@ -84,8 +84,7 @@
           img(src='@/assets/curso/tema4/img_11.png', class="img-fluid") 
       .col-12.col-lg-8
         .tarjeta.color-terciario-5.p-4.px-5.rounded-4.mb-3(data-aos="zoom-in-right")
-          p.mb-0 Por ejemplo, tiendas como Zara y Nike utilizan iluminación estratégica, colores neutros y composición visual organizada para fortalecer la experiencia del consumidor y destacar sus productos.
-        p.mb-0(data-aos="zoom-in-right") Por ejemplo, tiendas como Zara y Nike utilizan iluminación estratégica y fachadas de vidrio que permiten observar la exhibición de productos en el interior del establecimiento. Este tipo de vitrinas abiertas forman parte del escaparatismo, estrategia que utiliza iluminación, diseño y presentación visual para atraer la atención de los clientes y resaltar la marca. Además, se utilizan colores neutros y composición visual organizada para fortalecer la experiencia del consumidor y destacar sus productos.
+          p.mb-0(data-aos="zoom-in-right") Por ejemplo, tiendas como Zara y Nike utilizan iluminación estratégica y fachadas de vidrio que permiten observar la exhibición de productos en el interior del establecimiento. Este tipo de vitrinas abiertas forman parte del escaparatismo, estrategia que utiliza iluminación, diseño y presentación visual para atraer la atención de los clientes y resaltar la marca. Además, se utilizan colores neutros y composición visual organizada para fortalecer la experiencia del consumidor y destacar sus productos.
 
     Separador
 

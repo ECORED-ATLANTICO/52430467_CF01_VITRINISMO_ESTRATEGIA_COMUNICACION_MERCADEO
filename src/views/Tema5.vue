@@ -89,7 +89,7 @@
           tr.bg-table-01
             td.bg-table-Verde.text-start Verde
             td.text-start Asociado con naturaleza, frescura y bienestar
-            td.text-start Ideal para productos ecológicos o saludables
+            td.text-start Ideal para productos ecológicos o saludables.
             td.text-start Supermercados, negocios verdes, farmacias
           tr
             td.bg-table-Naranja.text-start Naranja
@@ -100,11 +100,11 @@
             td.bg-table-Negro.text-start Negro
             td.text-start Elegancia, sofisticación
             td.text-start Transmite exclusividad y lujo.
-            td.text-start Productos premium, vitrinas de moda
+            td.text-start Productos <em>premium</em>, vitrinas de moda
           tr
             td.bg-table-Blanco.text-start Blanco
             td.text-start Limpieza, pureza, simplicidad
-            td.text-start Genera sensación de orden y amplitud
+            td.text-start Genera sensación de orden y amplitud.
             td.text-start Farmacias, tiendas de tecnología, vitrinas minimalistas
           tr.bg-table-01
             td.bg-table-Rosa.text-start Rosa
