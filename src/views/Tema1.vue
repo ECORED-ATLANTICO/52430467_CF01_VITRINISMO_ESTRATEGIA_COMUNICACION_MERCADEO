@@ -169,7 +169,7 @@
                     img(src='@/assets/curso/tema1/img_19.png', class="img-fluid")
                 .tarjeta-img-titulo__contenido
                   h5.tarjeta-img-titulo__titulo.mb-3 <em>Marketing</em> sensorial
-                  p.mb-0 Integra estímulos visuales y emocionales para fortalecer la experiencia del consumidor dentro del establecimiento comercial
+                  p.mb-0 Integra estímulos visuales y emocionales para fortalecer la experiencia del consumidor dentro del establecimiento comercial.
               .tarjeta-img-titulo
                 .tarjeta-img-titulo__imagen
                   figure.mb-0
